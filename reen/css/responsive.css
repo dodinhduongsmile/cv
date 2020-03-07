@@ -1,0 +1,119 @@
+/*responsive*/
+@media only screen and (min-width:1200px){
+	.container{
+	width:1200px;
+}
+}
+@media only screen and (max-width:1199px){
+		.container{
+		min-width:100%;
+} 
+@media only screen and (max-width:991px){
+	.contenthero h2 {
+
+    font-size: 63px;
+
+}
+.contenthero a {
+
+    padding: 22px 50px;
+}
+.carousel1 .owl-dots {
+    left: 39%;
+    right: 39%;
+}
+.who {
+    padding: 78px 0 93px;
+    text-align: center;
+}
+.who1 {
+
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.who1 h3 {
+
+    font-size: 39px;
+    line-height: 51px;
+    padding-bottom: 19px;
+}
+.who1 p {
+
+    font-size: 21px;
+    line-height: 30px;
+}
+.latest {
+    padding: 89px 0;
+}
+.latest1 {
+
+    padding-bottom: 50px;
+
+}
+.latest1 h3 {
+    padding-bottom: 7px;
+}
+.latest2 {
+
+    padding-bottom: 55px;
+
+}
+.carousel2 button.owl-prev {
+    position: absolute;
+    left: 67px;
+    top: 27px;
+    background: #c9d2da !important;
+}
+.carousel2 button.owl-next {
+
+    position: absolute;
+   right: 67px;
+    top: 27px;
+    background: #c9d2da !important;
+
+}
+}
+@media only screen and (max-width:767px){
+	.navbar-header a {
+    padding: 7px 0 0 0;
+    display: inline-block;
+}
+.form {
+    padding: 15px 0;
+    width: 90%;
+}
+.form form input {
+    border: none;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.contenthero h2 {
+    font-size: 49px;
+}
+.contenthero p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0 35px;
+}
+.contenthero a {
+    padding: 17px 29px;
+    display: inline-block;
+	margin-bottom: 14px;
+}
+.carousel1 .owl-dots {
+    left: 36%;
+    right: 36%;
+}
+}
+@media only screen and (max-width:480px){
+
+}
+@media only screen and (max-width:414px){
+	
+}
+@media only screen and (max-width:320px){
+	
+}

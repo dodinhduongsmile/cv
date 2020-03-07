@@ -1,0 +1,127 @@
+
+
+@media (min-width:1200px) /* lg*/ {
+    .row_pc{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .container{
+        width: 1200px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) /* md*/{
+    .list_link_hd{
+        float: left !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+ .servicea {
+    padding: 0px 0 39px;
+    background: #1e6175;
+}
+.product {
+    margin: 40px auto 15px;
+}
+.order {
+    margin-top: 25px;
+}
+.slider_main2 .owl-nav .owl-prev, .slider_main2 .owl-nav .owl-next {
+      left: 0px;
+       }
+.slider_main2 .owl-nav .owl-next {
+    left: inherit;
+      right: 0px;
+       }
+.introducta .intro_left {
+    padding: 0 20px 0 0;
+}
+}
+
+@media (max-width:767px) /* xs*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+    .servicea {
+    padding: 0px 0 39px;
+    background: #1e6175;
+}
+.product {
+    margin: 40px auto 15px;
+}
+.order {
+    margin-top: 25px;
+}
+/*.slider_main2 .owl-nav .owl-prev, .slider_main2 .owl-nav .owl-next {
+      left: 0px;
+       }
+.slider_main2 .owl-nav .owl-next {
+    left: inherit;
+      right: 0px;
+       }*/
+.introducta .intro_left {
+    padding: 0 20px 0 0;
+}
+.sale_pc {
+    display: none;
+}
+}
+
+@media (max-width:480px) {
+    .col-480-12{
+        width: 100% !important;
+    }
+    .col-480-6{
+        width: 50% !important;
+    }
+    .hidden-480{
+        display: none !important;
+    }
+    .visible-480{
+        display: block !important;
+    }
+.introducta.clearfix {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.introducta .intro_left {
+    width: 100%;
+}
+.introducta .intro_right {
+    width: 100%;
+    padding-bottom: 15px;
+}
+.menua {
+    margin-bottom: 60px;
+    border-bottom: 1px solid #333;
+}
+.introduct h2 {
+    font-size: 35px;
+}
+.title {
+    font-size: 28px;
+    margin-bottom: 11px;
+}
+.slider_main2 .owl-nav .owl-prev i.icon_slider, .slider_main2 .owl-nav .owl-next i.icon_slider {
+    font-size: 44px;
+}
+.slider_main2 .owl-nav {
+    top: 35%;
+}
+.slider_main2 .owl-nav .owl-prev, .slider_main2 .owl-nav .owl-next {
+    height: auto;
+    margin: 0;
+}
+}
+.introduct h3 {
+    font-size: 31px;
+    line-height: 45px;
+}
+
+.visible-480{
+    display: none;
+}

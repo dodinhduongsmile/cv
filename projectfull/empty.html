@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>ĐỖ ĐÌNH DƯƠNG PROJECT</title>
+		<meta charset="utf-8">
+		<!--reset các style cho các trình duyệt-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesan/css/font-awesome.min.css">
+		<!--https://daneden.github.io/animate.css/-->
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/hover-min.css">
+		<!--https://owlcarousel2.github.io/OwlCarousel2/docs/api-options.html-->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<!--http://ianlunn.github.io/Hover/-->
+		<link rel="stylesheet" href="css/global.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<script src="js/maxcdn.js"></script><!--hỗ trợ html 5 ở các trình duyệt IE-->
+	</head>
+	<body>
+		<!--HEADER-->
+		<header>
+			<!-- top Header -->
+			<div class="top_header">
+				<div class="container p0">
+					<div class="hd_top_link fl-right">
+						<ul class="list_menu_item">
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">my account<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">logout</a></li>
+									<li><a href="#">abc</a></li>
+								</ul>
+							</li>
+							<li><a href="">wishlist</a></li>
+							<li><a href="">my cart</a></li>
+							<li><a href="">checkout</a></li>
+							<li><a href="">login</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end top Header -->
+			<!-- header -->
+			<div class="header" id="header">
+				<div class="container p0">
+					<!--logo-->
+					<div class="header_logo fl-left">
+						<a href="index.html"><img src="images/logo.png" alt="logo"/></a>
+					</div>
+					<!--end logo-->
+					<div class="fl-right header_right">
+						<!--search-->
+						<div class="header_search">
+							<form action="#" method="post">
+								<input type="text" name="search" placeholder="search here..."/>
+								<button type="submit" class="search_btn"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+						<div class="header_cart">
+							<div class="header_cart_icon">
+								<a href=""><i class="fa fa-shopping-cart"></i></a>
+							</div>
+							<span id="itemcount"></span>
+							<div class="header_cart_detail">
+								<p>total</p>
+								<span>$600.00</span>
+							</div>
+						</div>
+						<!--end cart-->
+						<div class="nav-toggle">
+							<button class="nav-toggle-btn main-btn icon-btn" title="menu"><i class="fa fa-bars"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end header -->
+		</header>
+		<!-- NAVIGATION -->
+		<div class="navigation" id="navigation">
+			<div class="container p0">
+				<div id="responsive-nav" class="clearfix">
+					<div class="category-nav show-on-click">
+						<span class="category-header"><i class="fa fa-list"></i> Categories</span>
+						<ul class="category-list">
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>clothing</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>electronics</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>shoes</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>watches</a></li>
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-play-circle" aria-hidden="true"></i> jewellery <i class="fa fa-caret-down"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="products.html">Products</a></li>
+									<li><a href="product-page.html">Product Details</a></li>
+									<li><a href="checkout.html">Checkout</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>health and beauty</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>kids and babies</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>sports</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>home and garden</a></li>
+						</ul>
+					</div>
+					<div class="menu-nav clearfix">
+						<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
+						<ul class="menu-list fl-right">
+							<li class="active"><a href="#">clothing</a></li>
+							<li><a href="#">electronics hot</a></li>
+							<li><a href="#">Health & Beauty</a></li>
+							<li><a href="#">watches</a></li>
+							<li><a href="#">jewellery</a></li>
+							<li><a href="#">shoes</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end NAVIGATION -->
+	<!-- BREADCRUMB -->
+		<div id="breadcrumb">
+			<div class="container">
+				<ul class="breadcrumb">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Category</a></li>
+					<li class="active">Product Detail</li>
+				</ul>
+			</div>
+		</div>
+	<!-- /BREADCRUMB -->
+		
+	<!-- section same -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<!-- Product same -->
+					<div class="bodyright_product">
+						<div class="bodyright_product_title clearfix">
+							<h5>products same</h5>
+							<ul class="list_menu_tab clearfix">
+								<li class="active"><a data-toggle="tab" href="#all" title="all">all</a></li>
+								<li><a data-toggle="tab" href="#clothing" title="clothing">clothing</a></li>
+								<li><a data-toggle="tab" href="#clothing" title="electronics" >electronics</a></li>
+								<li><a data-toggle="tab" href="#tab" title="shoes" >shoes</a></li>
+							</ul>
+						</div>
+						<div class="tab-content bodyright_tab">
+							<div id="all" class="tab-pane fade in active">
+								<div class="owl-carousel owl-theme carousel2">
+									<div class="item bodyright_product_slide">
+										<div class="bodyleft_product_img">
+											<img src="images/product2.jpg" alt="product"/>
+											<div class="dtl">
+												<h3 class="add"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add Cart</h3>
+												<p>Integer sollicitudin lacus libero, in iaculis turpis tristique sit amet.</p>
+												<a href="#">Read More</a>
+											</div>
+										</div>
+										<div class="bodyleft_product_detail">
+											<h6><a href="" title="product">Lorem ipsum dolor</a></h6>
+											<p><span>$100.00</span><span>$90.00</span></p>
+											<div class="icon_star">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+									<div class="item bodyright_product_slide">
+										<div class="bodyleft_product_img">
+											<img src="images/product3.jpg" alt="product"/>
+											<div class="dtl">
+												<h3 class="add"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add Cart</h3>
+												<p>Integer sollicitudin lacus libero, in iaculis turpis tristique sit amet.</p>
+												<a href="#">Read More</a>
+											</div>
+										</div>
+										<div class="bodyleft_product_detail">
+											<h6><a href="" title="product">Lorem ipsum dolor</a></h6>
+											<p><span>$100.00</span><span>$90.00</span></p>
+											<div class="icon_star">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+									<div class="item bodyright_product_slide">
+										<div class="bodyleft_product_img">
+											<img src="images/product4.jpg" alt="product"/>
+											<div class="dtl">
+												<h3 class="add"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add Cart</h3>
+												<p>Integer sollicitudin lacus libero, in iaculis turpis tristique sit amet.</p>
+												<a href="#">Read More</a>
+											</div>
+										</div>
+										<div class="bodyleft_product_detail">
+											<h6><a href="" title="product">Lorem ipsum dolor</a></h6>
+											<p><span>$100.00</span><span>$90.00</span></p>
+											<div class="icon_star">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+									<div class="item bodyright_product_slide">
+										<div class="bodyleft_product_img">
+											<img src="images/product5.jpg" alt="product"/>
+											<div class="dtl">
+												<h3 class="add"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add Cart</h3>
+												<p>Integer sollicitudin lacus libero, in iaculis turpis tristique sit amet.</p>
+												<a href="#">Read More</a>
+											</div>
+										</div>
+										<div class="bodyleft_product_detail">
+											<h6><a href="" title="product">Lorem ipsum dolor</a></h6>
+											<p><span>$100.00</span><span>$90.00</span></p>
+											<div class="icon_star">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="clothing" class="tab-pane fade">
+								<div class="owl-carousel owl-theme carousel2">
+									<div class="item bodyright_product_slide">
+										<div class="bodyleft_product_img">
+											<img src="images/product2.jpg" alt="product"/>
+										</div>
+										<div class="bodyleft_product_detail">
+											<h6><a href="" title="product">Lorem ipsum dolor</a></h6>
+											<p><span>$100.00</span><span>$90.00</span></p>
+											<div class="icon_star">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+									<div class="item bodyright_product_slide">
+										<div class="bodyleft_product_img">
+											<img src="images/product3.jpg" alt="product"/>
+										</div>
+										<div class="bodyleft_product_detail">
+											<h6><a href="" title="product">Lorem ipsum dolor</a></h6>
+											<p><span>$100.00</span><span>$90.00</span></p>
+											<div class="icon_star">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+									<div class="item bodyright_product_slide">
+										<div class="bodyleft_product_img">
+											<img src="images/product4.jpg" alt="product"/>
+										</div>
+										<div class="bodyleft_product_detail">
+											<h6><a href="" title="product">Lorem ipsum dolor</a></h6>
+											<p><span>$100.00</span><span>$90.00</span></p>
+											<div class="icon_star">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+									<div class="item bodyright_product_slide">
+										<div class="bodyleft_product_img">
+											<img src="images/product5.jpg" alt="product"/>
+										</div>
+										<div class="bodyleft_product_detail">
+											<h6><a href="" title="product">Lorem ipsum dolor</a></h6>
+											<p><span>$100.00</span><span>$90.00</span></p>
+											<div class="icon_star">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--end product same-->
+				</div>
+			</div>
+		</div>
+	<!-- /section -->
+		
+		<!-- begin footer-->
+		<footer>
+			<div class="logo_footer">
+				<div class="container">
+					<ul class="logo_footer_list">
+						<li><a href=""><img src="images/logo1.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo2.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo3.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo4.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo5.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo6.png" alt="logo"/></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--end logo_footer-->
+			<div class="content_footer">
+				<div class="container p0">
+					<div class="row">
+						<div class="col-sm-3 col-xs-6 col_xs1 col1">
+							<img src="images/logo.png" alt="logo"/>
+							<p>This is photoshop's version of lorem ipsum proin gravida nibh velit it's a cold world out there.</p>
+							<ul class="col_xs1_list">
+								<li><p><i class="fa fa-map-marker" aria-hidden="true"></i> 0123  Main Road, Your City, NY 123456</p></li>
+								<li><p><i class="fa fa-phone" aria-hidden="true"></i> (000) 2345 - 6789</p></li>
+								<li><p><i class="fa fa-envelope" aria-hidden="true"></i> info@psdfreebies.com</p></li>
+							</ul>
+						</div>
+						<div class="col-sm-3 col-xs-6 col_xs1 col2">
+							<h5>information</h5>
+							<ul class="col_xs1_list">
+								<li>Our Story</li>
+								<li>Privacy & Policy</li>
+								<li>Terms & Conditions</li>
+								<li>Shipping & Delivery</li>
+								<li>Careers</li>
+								<li>faq</li>
+							</ul>
+						</div>
+						<div class="col-sm-3 col-xs-6 col_xs1 col3">
+							<h5>information</h5>
+							<ul class="col_xs1_list">
+								<li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i>Google+</a></li>
+								<li><a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i>Pinterest</a></li>
+								<li><a href=""><i class="fa fa-vimeo" aria-hidden="true"></i>Vimeo</a></li>
+								<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+							</ul>
+							<ul class="col_xs1_list fl_right">
+								<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+								<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+								<li><a href=""><i class="fa fa-rss" aria-hidden="true"></i>rss</a></li>
+								<li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i>youtube</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-3 col-xs-6 col_xs1 col4">
+							<h5>opening time</h5>
+							<p><i class="fa fa-clock-o" aria-hidden="true"></i>Monday - Friday: 08:30 am - 09:30 pm</p>
+							<span>Sat - Sun: 09:00 am - 10:00 pm</span>
+							<h5>payment option</h5>
+							<ul class="col_xs1_list clearfix">
+								<li><a href=""><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-discover" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-amex" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-visa" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-stripe" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-money" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-jcb" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--end content_footer-->
+			<div class="footer" id="footer">
+				<div class="container">
+					<div class="footer_x1">
+						<ul class="footer_x1_list">
+							<li><a href="">Sitemap</a></li>
+							<li><a href="">Searchs</a></li>
+							<li><a href="">Searchs</a></li>
+							<li><a href="">Advance </a></li>
+							<li><a href="">Searchs </a></li>
+							<li><a href="">contact us </a></li>
+						</ul>
+					</div>
+					<div class="footer_x2">
+						<h5><span>
+						&copy;<script>document.write(new Date().getFullYear());</script> <a href="">PSDFreebies.com</a> | All Right Reserved.
+						</span></h5>
+					</div>
+				</div>
+			</div>
+			<!--end footer-->
+		</footer>
+		<!--END FOOTER-->
+		<!--to top-->
+		<div class="totop" style="display: none;">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div>
+		
+		<!--Thư viện Javascript-->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/main.js"></script>
+		<!--script slide-->
+		<!--scrpt wow-->
+		<script>
+            new WOW().init();
+        </script>
+	</body>
+</html>

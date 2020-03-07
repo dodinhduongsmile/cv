@@ -1,0 +1,417 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+	margin:0;
+	padding:0;
+}
+img{
+	max-width:100%;
+	height:auto;
+	display:block;
+}
+.p0{
+	padding-left:0px;
+	padding-right:0px;
+}
+.m0{
+	margin-left:0;
+	margin-right:0;
+}
+.header{
+	text-align:center;
+	color:#fff;
+}
+@font-face{
+	font-family:"GenBkBasR";
+	src:url("font/Gentium_Book_Basic/GenBkBasR.ttf");
+}
+@font-face{
+	font-family:Lato-Regular;
+	src:url("font/Lato/Lato-Regular.ttf");
+}
+@font-face{
+	font-family:YesevaOne;
+	src:url("font/Yeseva_One/YesevaOne-Regular.ttf");
+}
+@font-face{
+	font-family:OpenSans-Regular;
+	src:url(font/font-open-sans/OpenSans-Regular.ttf);
+}
+h1,h2,h3,h4,h5{
+	font-family: YesevaOne;
+}
+p{
+	font-family:Lato-Regular;
+}
+.logo img {
+    padding: 9px 0 9px;
+    margin-left: -40px;
+}
+.navbar.navbar-default {
+    background: transparent;
+    border: none;
+    margin: 0;
+}
+.navbar-default .navbar-nav > li > a {
+	border-top: 3px solid transparent;
+    color: #fff;
+    font-size: 21px;
+    font-family: GenBkBasR;
+    font-weight: bold;
+    text-transform: capitalize;
+	padding: 47px 25px 43px;
+}
+
+#mymenu ul li:hover a {
+	border-top:3px solid #cbc9c1;
+}
+
+.menuicon.fl-right {
+    padding: 47px 0 41px;
+}
+.menuicon i {
+    color: #dab33e;
+    font-size: 20px;
+}
+.menu-scroll{
+	background:rgba(247,7,7,0.7);
+}
+/*end header*/
+.headerbottom {
+	background-image:url("images/image1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	color:#fff;
+    padding: 230px 0 139px;
+}
+.headerbottom h2 {
+    font-size: 90px;
+    font-family: YesevaOne;
+}
+.headerbottom img {
+    margin: 30px auto;
+}
+.headerlink {
+    display: flex;
+    justify-content: center;
+}
+.headerlink li {
+	margin:0 15px
+}
+.headerlink li a {
+    font-size: 18px;
+    padding: 20px 50px;
+    font-family: Lato-Regular
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #e8e4cd;
+}
+.headerlink li:hover a{
+	background-color:#1d1f1f;
+	opacity:0.7;
+	border:2px solid #000;
+}
+/*end header*/
+.about{
+	background-image:url("images/phokersoft4.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+}
+.aboutleft {
+    padding: 100px 70px;
+}
+.aboutleft1 {
+    padding-bottom: 50px;
+}
+.aboutleft1 h3 {
+    font-size: 36px;
+    color: #cc9900;
+    line-height: 24px;
+    font-weight: 600;
+}
+.aboutleft1 img {
+    margin: 13px auto 30px;
+}
+.aboutleft1 p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.aboutright {
+    padding: 70px 50px 78px 0;
+}
+/*end about*/
+.ingredient{
+	background-image:url("images/phokersoft5.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	padding:100px 0;
+	color:#fff;
+}
+.ingleft {
+    float: right;
+    padding: 68px;
+	background: rgba(3,3,3,0.5);
+}
+.ingleft1 {
+    padding-bottom: 67px;
+}
+.ingleft1 h3{
+	font-size: 36px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.ingleft1 img {
+    margin: 13px auto 30px;
+}
+.ingleft1 p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.ingimg {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ul.ingimg li {
+    padding: 0 15px;
+}
+/*end ingredient*/
+.smenu{
+	background-image:url("images/phokersoft4.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	padding:100px 0;
+}
+.smenuleft {
+    padding: 0 70px;
+}
+.smenuleft1:first-child {
+    margin-bottom: 65px;
+}
+.smenuleft1 h3 {
+    font-size: 36px;
+    line-height: 24px;
+	color:#cc9900;
+}
+.smenuleft1 img {
+    margin: 16px auto 30px;
+}
+.sleft1content {
+    text-align: left;
+    font-family: Lato-Regular;
+}
+.sleft1content span {
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 600;
+}
+.sleft1content p {
+    font-size: 16px;
+}
+.ngang {
+    width: 100%;
+    height: 1px;
+    background: #cc9900;
+    margin: 12px auto 13px;
+}
+.sleft1content {
+    text-align: left;
+    font-family: Lato-Regular;
+    margin-bottom: 35px;
+}
+.sleft1content:last-child {
+    margin: 0;
+}
+.note {
+    position: relative;
+    display: block;
+    border: 1px solid #cc9900;
+}
+.note b {
+    position: absolute;
+    top: -31px;
+    right: 0;
+    color: #fff;
+    padding: 5px 10px;
+    background: rgba(204,153,0,0.5);
+}
+/*end section menu*/
+.review{
+	background-image:url("images/phokersoft6.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	padding:100px 0;
+}
+.review1 {
+    width: 66.67%;
+    margin: 0 auto;
+    color: #fff;
+	padding:70px 70px 80px;
+	background-color:rgba(8,8,3,0.6);
+}
+.review1 h3 {
+    font-size: 36px;
+	font-weight:bold;
+}
+.review1 img {
+    margin: 19px auto 25px;
+}
+.review1 p {
+    font-size: 25px;
+    line-height: 45px;
+	font-family:"GenBkBasR";
+	font-weight: 600;
+}
+.review1 p::first-letter {
+    font-size: 50px;
+}
+/*end review*/
+.reservation{
+	background-image:url("images/phokersoft4.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	padding:100px 0;
+}
+.rever1img {
+    float: left;
+    padding-right: 30px;
+    width: 50%;
+}
+.reser2 {
+    padding: 0 70px;
+}
+.reser2content {
+    margin-bottom: 43px;
+}
+.reser2content h3 {
+    color: #cc9900;
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.reser2content img {
+    margin: 13px auto 27px;
+}
+.reser2content p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+form {
+    text-align: center;
+}
+.reser2form1 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+	text-align: left;
+}
+.reser2form1 label {
+    color: #c9a131;
+    font-size: 14px;
+    font-weight: bold;
+	font-family:OpenSans-Regular;
+}
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+	font-family:OpenSans-Regular;
+    font-style: italic;
+	border: 2px solid #c8c6c6;
+}
+input[type="submit"] {
+    width: auto;
+    padding: 12px 60px;
+    border: none;
+    background-color: #c9a131;
+    font-style: normal;
+    color: #fff;
+	margin: 17px 0 0;
+}
+input:focus {
+    border: 2px solid #c89f2d;
+}
+/*end reservation*/
+.footer{
+	background-color:#000;
+	text-align:center;
+	padding:52px 0 50px;
+	color:#fff;
+}
+.footercol {
+    padding: 0 70px;
+}
+.footercol:first-child{
+	padding:0 7px;
+}
+.footercol h3 {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.footercol img {
+    margin: 14px auto 19px;
+}
+.footercol p {
+    font-size: 16px;
+    line-height: 24px;
+	font-family:OpenSans-Regular;
+}
+.footericon1 {
+    display: flex;
+    justify-content: center;
+	padding-top: 45px;
+}
+ul.footericon1 li a {
+    color: #fff;
+    font-size: 14px;
+}
+/*end footer*/
+.totop {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+}
+.totop i {
+    font-size: 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+    color: #fff;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+}
+/*active*/
+ /* Style the buttons */
+.btn1>a{
+	color:#0f0;
+  cursor: pointer;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active a, .btn1>a:hover {
+    background-color: #f00 !important;
+    color: blue !important;
+}

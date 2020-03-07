@@ -1,0 +1,1067 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Aparajita
+FamilyName:Aparajita
+StyleName:Regular
+FullName:Aparajita
+MenuName:Aparajita
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Aparaj.ttf
+DataFormat:sfntData
+FileLength:222356
+FileModTime:1529156292
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\glyphicons-halflings-regular.eot
+FileModTime:1469428982
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\glyphicons-halflings-regular.svg
+FileModTime:1469428982
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GLYPHICONSHalflings-Regular
+FamilyName:GLYPHICONS Halflings
+StyleName:Regular
+FullName:GLYPHICONS Halflings Regular
+MenuName:GLYPHICONS Halflings
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\glyphicons-halflings-regular.ttf
+DataFormat:sfntData
+FileLength:45404
+FileModTime:1469428982
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\glyphicons-halflings-regular.woff
+FileModTime:1469428982
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\glyphicons-halflings-regular.woff2
+FileModTime:1469428982
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\Yeseva_One\OFL.txt
+FileModTime:1310490000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YesevaOne-Regular
+FamilyName:Yeseva One
+StyleName:Regular
+FullName:Yeseva One Regular
+MenuName:Yeseva One
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Yeseva_One\YesevaOne-Regular.ttf
+DataFormat:sfntData
+FileLength:108016
+FileModTime:1310490000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Bold
+FamilyName:Source Sans Pro
+StyleName:Bold
+FullName:Source Sans Pro Bold
+MenuName:Source Sans Pro
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\SourceSansPro\SourceSansPro-Bold.ttf
+DataFormat:sfntData
+FileLength:290916
+FileModTime:1532638838
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:100
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Light
+FamilyName:Source Sans Pro
+StyleName:Light
+FullName:Source Sans Pro Light
+MenuName:Source Sans Pro Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\SourceSansPro\SourceSansPro-Light.ttf
+DataFormat:sfntData
+FileLength:292680
+FileModTime:1532638844
+WeightClass:300
+WidthClass:5
+AngleClass:0
+DesignSize:100
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Regular
+FamilyName:Source Sans Pro
+StyleName:Regular
+FullName:Source Sans Pro Regular
+MenuName:Source Sans Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\SourceSansPro\SourceSansPro-Regular.ttf
+DataFormat:sfntData
+FileLength:293516
+FileModTime:1532638840
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:100
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-SemiBold
+FamilyName:Source Sans Pro
+StyleName:SemiBold
+FullName:Source Sans Pro SemiBold
+MenuName:Source Sans Pro SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\SourceSansPro\SourceSansPro-SemiBold.ttf
+DataFormat:sfntData
+FileLength:291864
+FileModTime:1532638842
+WeightClass:600
+WidthClass:5
+AngleClass:0
+DesignSize:100
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Black
+FamilyName:Raleway
+StyleName:Black
+FullName:Raleway Black
+MenuName:Raleway Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-Black.ttf
+DataFormat:sfntData
+FileLength:180592
+FileModTime:1527104516
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-BlackItalic
+FamilyName:Raleway
+StyleName:Black Italic
+FullName:Raleway Black Italic
+MenuName:Raleway Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-BlackItalic.ttf
+DataFormat:sfntData
+FileLength:148368
+FileModTime:1527104516
+WeightClass:900
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Bold
+FamilyName:Raleway
+StyleName:Bold
+FullName:Raleway Bold
+MenuName:Raleway
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-Bold.ttf
+DataFormat:sfntData
+FileLength:179244
+FileModTime:1527104516
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-BoldItalic
+FamilyName:Raleway
+StyleName:Bold Italic
+FullName:Raleway Bold Italic
+MenuName:Raleway
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-BoldItalic.ttf
+DataFormat:sfntData
+FileLength:148184
+FileModTime:1527104516
+WeightClass:700
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraBold
+FamilyName:Raleway
+StyleName:ExtraBold
+FullName:Raleway ExtraBold
+MenuName:Raleway ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-ExtraBold.ttf
+DataFormat:sfntData
+FileLength:178128
+FileModTime:1527104518
+WeightClass:800
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraBoldItalic
+FamilyName:Raleway
+StyleName:ExtraBold Italic
+FullName:Raleway ExtraBold Italic
+MenuName:Raleway ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-ExtraBoldItalic.ttf
+DataFormat:sfntData
+FileLength:148100
+FileModTime:1527104518
+WeightClass:800
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraLight
+FamilyName:Raleway
+StyleName:ExtraLight
+FullName:Raleway ExtraLight
+MenuName:Raleway ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-ExtraLight.ttf
+DataFormat:sfntData
+FileLength:176344
+FileModTime:1527104518
+WeightClass:275
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraLightItalic
+FamilyName:Raleway
+StyleName:ExtraLight Italic
+FullName:Raleway ExtraLight Italic
+MenuName:Raleway ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-ExtraLightItalic.ttf
+DataFormat:sfntData
+FileLength:142192
+FileModTime:1527104520
+WeightClass:275
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Italic
+FamilyName:Raleway
+StyleName:Italic
+FullName:Raleway Italic
+MenuName:Raleway
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-Italic.ttf
+DataFormat:sfntData
+FileLength:145920
+FileModTime:1527104520
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Light
+FamilyName:Raleway
+StyleName:Light
+FullName:Raleway Light
+MenuName:Raleway Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-Light.ttf
+DataFormat:sfntData
+FileLength:182376
+FileModTime:1527104520
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-LightItalic
+FamilyName:Raleway
+StyleName:Light Italic
+FullName:Raleway Light Italic
+MenuName:Raleway Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-LightItalic.ttf
+DataFormat:sfntData
+FileLength:148368
+FileModTime:1527104522
+WeightClass:300
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Medium
+FamilyName:Raleway
+StyleName:Medium
+FullName:Raleway Medium
+MenuName:Raleway Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-Medium.ttf
+DataFormat:sfntData
+FileLength:179444
+FileModTime:1527104522
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-MediumItalic
+FamilyName:Raleway
+StyleName:Medium Italic
+FullName:Raleway Medium Italic
+MenuName:Raleway Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-MediumItalic.ttf
+DataFormat:sfntData
+FileLength:147568
+FileModTime:1527104522
+WeightClass:500
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Regular
+FamilyName:Raleway
+StyleName:Regular
+FullName:Raleway
+MenuName:Raleway
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-Regular.ttf
+DataFormat:sfntData
+FileLength:178520
+FileModTime:1527104522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-SemiBold
+FamilyName:Raleway
+StyleName:SemiBold
+FullName:Raleway SemiBold
+MenuName:Raleway SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-SemiBold.ttf
+DataFormat:sfntData
+FileLength:180492
+FileModTime:1527104524
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-SemiBoldItalic
+FamilyName:Raleway
+StyleName:SemiBold Italic
+FullName:Raleway SemiBold Italic
+MenuName:Raleway SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-SemiBoldItalic.ttf
+DataFormat:sfntData
+FileLength:146584
+FileModTime:1527104524
+WeightClass:600
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Thin
+FamilyName:Raleway
+StyleName:Thin
+FullName:Raleway Thin
+MenuName:Raleway Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-Thin.ttf
+DataFormat:sfntData
+FileLength:177572
+FileModTime:1527104524
+WeightClass:250
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ThinItalic
+FamilyName:Raleway
+StyleName:Thin Italic
+FullName:Raleway Thin Italic
+MenuName:Raleway Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\Raleway-ThinItalic.ttf
+DataFormat:sfntData
+FileLength:141884
+FileModTime:1527104524
+WeightClass:250
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\raleway.zip
+FileModTime:1527104660
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\raleway\SIL Open Font License.txt
+FileModTime:1527104522
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Black
+FamilyName:Lato
+StyleName:Black
+FullName:Lato Black
+MenuName:Lato Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-Black.ttf
+DataFormat:sfntData
+FileLength:114588
+FileModTime:1292346000
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-BlackItalic
+FamilyName:Lato
+StyleName:Black Italic
+FullName:Lato Black Italic
+MenuName:Lato Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-BlackItalic.ttf
+DataFormat:sfntData
+FileLength:111616
+FileModTime:1292346000
+WeightClass:900
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Bold
+FamilyName:Lato
+StyleName:Bold
+FullName:Lato Bold
+MenuName:Lato
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-Bold.ttf
+DataFormat:sfntData
+FileLength:121788
+FileModTime:1292346000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-BoldItalic
+FamilyName:Lato
+StyleName:Bold Italic
+FullName:Lato Bold Italic
+MenuName:Lato
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-BoldItalic.ttf
+DataFormat:sfntData
+FileLength:120312
+FileModTime:1292346000
+WeightClass:700
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Hairline
+FamilyName:Lato
+StyleName:Hairline
+FullName:Lato-Hairline
+MenuName:Lato Hairline
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-Hairline.ttf
+DataFormat:sfntData
+FileLength:115316
+FileModTime:1292346000
+WeightClass:250
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-HairlineItalic
+FamilyName:Lato
+StyleName:Hairline Italic
+FullName:Lato-HairlineItalic
+MenuName:Lato Hairline
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-HairlineItalic.ttf
+DataFormat:sfntData
+FileLength:91460
+FileModTime:1292346000
+WeightClass:250
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Italic
+FamilyName:Lato
+StyleName:Italic
+FullName:Lato Italic
+MenuName:Lato
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-Italic.ttf
+DataFormat:sfntData
+FileLength:118352
+FileModTime:1292346000
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Light
+FamilyName:Lato
+StyleName:Light
+FullName:Lato-Light
+MenuName:Lato Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-Light.ttf
+DataFormat:sfntData
+FileLength:122524
+FileModTime:1292346000
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-LightItalic
+FamilyName:Lato
+StyleName:Light Italic
+FullName:Lato-LightItalic
+MenuName:Lato Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-LightItalic.ttf
+DataFormat:sfntData
+FileLength:91600
+FileModTime:1292346000
+WeightClass:300
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Regular
+FamilyName:Lato
+StyleName:Regular
+FullName:Lato Regular
+MenuName:Lato
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato-Regular.ttf
+DataFormat:sfntData
+FileLength:120196
+FileModTime:1292346000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\Lato.zip
+FileModTime:1529375190
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\Lato\OFL.txt
+FileModTime:1292346000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GentiumBookBasic-Bold
+FamilyName:Gentium Book Basic
+StyleName:Bold
+FullName:Gentium Book Basic Bold
+MenuName:Gentium Book Basic
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Gentium_Book_Basic\GenBkBasB.ttf
+DataFormat:sfntData
+FileLength:267024
+FileModTime:1313514000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GentiumBookBasic-BoldItalic
+FamilyName:Gentium Book Basic
+StyleName:Bold Italic
+FullName:Gentium Book Basic Bold Italic
+MenuName:Gentium Book Basic
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Gentium_Book_Basic\GenBkBasBI.ttf
+DataFormat:sfntData
+FileLength:245096
+FileModTime:1313514000
+WeightClass:700
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GentiumBookBasic-Italic
+FamilyName:Gentium Book Basic
+StyleName:Italic
+FullName:Gentium Book Basic Italic
+MenuName:Gentium Book Basic
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Gentium_Book_Basic\GenBkBasI.ttf
+DataFormat:sfntData
+FileLength:261328
+FileModTime:1313514000
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GentiumBookBasic
+FamilyName:Gentium Book Basic
+StyleName:Regular
+FullName:Gentium Book Basic
+MenuName:Gentium Book Basic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\Gentium_Book_Basic\GenBkBasR.ttf
+DataFormat:sfntData
+FileLength:267604
+FileModTime:1313514000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\Gentium_Book_Basic\OFL.txt
+FileModTime:1313514000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\font-open-sans.rar
+FileModTime:1527104530
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Bold
+FamilyName:Open Sans
+StyleName:Bold
+FullName:Open Sans Bold
+MenuName:Open Sans
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\OpenSans-Bold.ttf
+DataFormat:sfntData
+FileLength:224592
+FileModTime:1527104526
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Extrabold
+FamilyName:Open Sans
+StyleName:Extrabold
+FullName:Open Sans Extrabold
+MenuName:Open Sans Extrabold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\OpenSans-ExtraBold.ttf
+DataFormat:sfntData
+FileLength:222584
+FileModTime:1527104528
+WeightClass:800
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-ExtraboldItalic
+FamilyName:Open Sans
+StyleName:Extrabold Italic
+FullName:Open Sans Extrabold Italic
+MenuName:Open Sans Extrabold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\OpenSans-ExtraBoldItalic.ttf
+DataFormat:sfntData
+FileLength:213420
+FileModTime:1527104528
+WeightClass:800
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Italic
+FamilyName:Open Sans
+StyleName:Italic
+FullName:Open Sans Italic
+MenuName:Open Sans
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\OpenSans-Italic.ttf
+DataFormat:sfntData
+FileLength:212896
+FileModTime:1527104530
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Light
+FamilyName:Open Sans
+StyleName:Light
+FullName:Open Sans Light
+MenuName:Open Sans Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\OpenSans-Light.ttf
+DataFormat:sfntData
+FileLength:222412
+FileModTime:1527104528
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSansLight-Italic
+FamilyName:Open Sans
+StyleName:Light Italic
+FullName:Open Sans Light Italic
+MenuName:Open Sans Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\OpenSans-LightItalic.ttf
+DataFormat:sfntData
+FileLength:213128
+FileModTime:1527104530
+WeightClass:300
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans
+FamilyName:Open Sans
+StyleName:Regular
+FullName:Open Sans
+MenuName:Open Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\OpenSans-Regular.ttf
+DataFormat:sfntData
+FileLength:217360
+FileModTime:1527104532
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Semibold
+FamilyName:Open Sans
+StyleName:Semibold
+FullName:Open Sans Semibold
+MenuName:Open Sans Semibold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\OpenSans-Semibold.ttf
+DataFormat:sfntData
+FileLength:221328
+FileModTime:1527104534
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-SemiboldItalic
+FamilyName:Open Sans
+StyleName:Semibold Italic
+FullName:Open Sans Semibold Italic
+MenuName:Open Sans Semibold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\font-open-sans\OpenSans-SemiboldItalic.ttf
+DataFormat:sfntData
+FileLength:212820
+FileModTime:1527104530
+WeightClass:600
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cardo-Bold
+FamilyName:Cardo
+StyleName:Bold
+FullName:Cardo Bold
+MenuName:Cardo
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\cardo\Cardo-Bold.ttf
+DataFormat:sfntData
+FileLength:348320
+FileModTime:1527104532
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cardo-Italic
+FamilyName:Cardo
+StyleName:Italic
+FullName:Cardo Italic
+MenuName:Cardo
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\cardo\Cardo-Italic.ttf
+DataFormat:sfntData
+FileLength:262388
+FileModTime:1527104534
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cardo-Regular
+FamilyName:Cardo
+StyleName:Regular
+FullName:Cardo
+MenuName:Cardo
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\html\psd\reen - Copy\Font\cardo\Cardo-Regular.ttf
+DataFormat:sfntData
+FileLength:400468
+FileModTime:1527104536
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\cardo\cardo.zip
+FileModTime:1527104536
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\html\psd\reen - Copy\Font\cardo\SIL Open Font License.txt
+FileModTime:1527104534
+%EndFont
+

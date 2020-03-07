@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'UTM_HelvetIns';
+    src: url('../fonts/UTMHelvetIns.eot');
+    src: url('../fonts/UTMHelvetIns.eot') format('embedded-opentype'), url('../fonts/UTMHelvetIns.woff')
+    format('woff2'), url('../fonts/UTMHelvetIns.woff') format('woff'), url('../fonts/UTMHelvetIns.ttf')
+    format('truetype'), url('../fonts/UTMHelvetIns.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ROBOTO_REGULAR';
+    src: url('../fonts/ROBOTO-REGULAR_1.TTF');
+}
+@font-face {
+    font-family: 'ROBOTO_BOLD';
+    src: url('../fonts/ROBOTO-BOLD_0.TTF');
+}
+p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover,
+a:focus {
+    color: #0d7cd6;
+    text-decoration: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.fixed {
+    position: fixed !important;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}
+.clearfix-130{
+    clear: both;
+    height: 130px;
+}
+.clearfix-100{
+    clear: both;
+    height: 100px;
+}
+.clearfix-80{
+    clear: both;
+    height: 80px;
+}
+.clearfix-60{
+    clear: both;
+    height: 60px;
+}
+.clearfix-55{
+    clear: both;
+    height: 55px;
+}
+.clearfix-50{
+    clear: both;
+    height: 50px;
+}
+.clearfix-45{
+    clear: both;
+    height: 45px;
+}
+.clearfix-40{
+    clear: both;
+    height: 40px;
+}
+.clearfix-35{
+    clear: both;
+    height: 35px;
+}
+.clearfix-30{
+    clear: both;
+    height: 30px;
+}
+.clearfix-32{
+    clear: both;
+    height: 32px;
+}
+.clearfix-25{
+    clear: both;
+    height: 25px;
+}
+.clearfix-20{
+    clear: both;
+    height: 20px;
+}
+.clearfix-15{
+    clear: both;
+    height: 15px;
+}
+.clearfix-12{
+    clear: both;
+    height: 12px;
+}
+.clearfix-10{
+    clear: both;
+    height: 10px;
+}
+.clearfix-5{
+    clear: both;
+    height: 5px;
+}
+
+body {
+    background: #fff;
+    font-size: 12px;
+    font-family: arial;
+    color: #000;
+}
+
+del {
+    font-size: 12px;
+    color: #999;
+}
+
+/*===========All=============*/ 
+.w_100 {
+    width: 100%;
+}
+
+.w_40 {
+    width: 40%;
+}
+
+.w_60 {
+    width: 60%;
+}
+
+/*==========Main============*/
+.menu_mb{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    z-index: 999;
+    padding: 1px 15px;
+    border-bottom: 1px solid #ccc;
+}
+#go_top {
+    position: fixed;
+    width: 24px;
+    height: 25px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-size: 100% 100%;
+    display: inline-block;
+    z-index: 100;
+    bottom: 25px;
+    right: 25px;
+}
+.img_logo_mb{
+    max-height: 60px;
+    max-width: 70%
+}
+.menu_main .nav.is-fixed{
+    position: relative;
+    z-index: 105;
+}

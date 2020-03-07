@@ -1,0 +1,20 @@
+.fl-left{
+	float:left;
+}
+.fl-right{
+	float:right;
+}
+.text-right{
+	text-align:right;
+}
+.text-center{
+	text-align:center;
+}
+.text-left{
+	text-align:left;
+}
+.clearfix{
+	content:"";
+	clear:both;
+	display:table;
+}

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>PROJECT-category page</title>
+		<meta charset="utf-8">
+		<!--reset các style cho các trình duyệt-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesan/css/font-awesome.min.css">
+		<!--http://ianlunn.github.io/Hover/-->
+		<link rel="stylesheet" href="css/global.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<script src="js/maxcdn.js"></script><!--hỗ trợ html 5 ở các trình duyệt IE-->
+	</head>
+	<body>
+		<!--HEADER-->
+		<header>
+			<!-- top Header -->
+			<div class="top_header">
+				<div class="container p0">
+					<div class="hd_top_link fl-right">
+						<ul class="list_menu_item">
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">my account<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="register.html">logout</a></li>
+									<li><a href="login.html">login</a></li>
+								</ul>
+							</li>
+							<li><a href="">wishlist</a></li>
+							<li><a href="cart.html">my cart</a></li>
+							<li><a href="checkout.html">checkout</a></li>
+							<li><a href="login.html">login</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end top Header -->
+			<!-- header -->
+			<div class="header" id="header">
+				<div class="container p0">
+					<!--logo-->
+					<div class="header_logo fl-left">
+						<a href="index.html"><img src="images/logo.png" alt="logo"/></a>
+					</div>
+					<!--end logo-->
+					<div class="fl-right header_right">
+						<!--search-->
+						<div class="header_search">
+							<form action="#" method="post">
+								<input type="text" name="search" placeholder="search here..."/>
+								<button type="submit" class="search_btn"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+						<div class="header_cart">
+							<div class="header_cart_icon">
+								<a href="cart.html" title="your cart" class="hvr-buzz-out"><i class="fa fa-shopping-cart"></i></a>
+							</div>
+							<span id="itemcount"></span>
+							<div class="header_cart_detail">
+								<p>total</p>
+								<span>$600.00</span>
+							</div>
+						</div>
+						<!--end cart-->
+						<div class="nav-toggle">
+							<button class="nav-toggle-btn main-btn icon-btn" title="menu"><i class="fa fa-bars"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end header -->
+		</header>
+		<!-- NAVIGATION -->
+		<div class="navigation" id="navigation">
+			<div class="container p0">
+				<div id="responsive-nav" class="clearfix">
+					<div class="category-nav show-on-click">
+						<span class="category-header"><i class="fa fa-list"></i> Categories</span>
+						<ul class="category-list">
+							<li><a href="category-product.html"><i class="fa fa-play-circle" aria-hidden="true"></i>clothing</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>electronics</a></li>
+							<li><a href="category-product.html"><i class="fa fa-play-circle" aria-hidden="true"></i>shoes</a></li>
+							<li><a href="category-product.html"><i class="fa fa-play-circle" aria-hidden="true"></i>watches</a></li>
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-play-circle" aria-hidden="true"></i> jewellery <i class="fa fa-caret-down"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="category-product.html">Products</a></li>
+									<li><a href="product-detail.html">Product Details</a></li>
+									<li><a href="checkout.html">Checkout</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>health and beauty</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>kids and babies</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>sports</a></li>
+							<li><a href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>home and garden</a></li>
+						</ul>
+					</div>
+					<div class="menu-nav clearfix">
+						<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
+						<ul class="menu-list fl-right">
+							<li class="active"><a href="category-product.html">clothing</a></li>
+							<li><a href="category-product.html">electronics hot</a></li>
+							<li><a href="category-product.html">Health & Beauty</a></li>
+							<li><a href="category-product.html">watches</a></li>
+							<li><a href="category-product.html">jewellery</a></li>
+							<li><a href="category-post.html">News</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end NAVIGATION -->
+	<!-- BREADCRUMB -->
+		<div id="breadcrumb">
+			<div class="container">
+				<ul class="breadcrumb">
+					<li><a href="#">Home</a></li>
+					<li class="active">Category post</li>
+				</ul>
+			</div>
+		</div>
+	<!-- /BREADCRUMB -->
+		
+	<!-- section same -->
+		<!-- section same -->
+		<div class="section">
+			<div class="container p0 clearfix">
+				<div class="category_page row clearfix">
+					<div class="col-sm-8 col-xs-12">
+						<div class="header_category_page">
+							<span>Bài viết mới nhất</span>
+							<a href="post.html">Xem thêm...</a>
+						</div>
+						<div class="row leftc2">
+							<div class="col-md-6 col-sm-6 col-xs-6 imgleftc2">
+								<a href="post.html" title="post"><img src="images/post3.jpg" alt="aa" class="img-responsive"></a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 contentleftc2">
+								<h4><a href="post.html" title="post">Hàng tiêu dùng tết, không thiếu nhưng giá sẽ tăng.</a></h4>
+								<p class="fa fa-clock-o" aria-hidden="true"> 29-01-2016, 09:36 am</p>
+								<p>Bộ công thương giá cả các hàng hóa trong dịp tết sắp tới có thể tăng nhẹ dao động từ 2- 15%, tùy từng mặt hàng...</p>
+								<a href="post.html">Xem thêm...</a>
+							</div>
+						</div><hr>
+						<div class="row leftc2">
+							<div class="col-md-6 col-sm-6 col-xs-6 imgleftc2">
+								<a href="post.html" title="post"><img src="images/images2.jpg" alt="aa" class="img-responsive"></a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 contentleftc2">
+								<h4><a href="post.html" title="post">Hàng tiêu dùng tết, không thiếu nhưng giá sẽ tăng.</a></h4>
+								<p class="fa fa-clock-o" aria-hidden="true"> 29-01-2016, 09:36 am</p>
+								<p>Bộ công thương giá cả các hàng hóa trong dịp tết sắp tới có thể tăng nhẹ dao động từ 2- 15%, tùy từng mặt hàng...</p>
+								<a href="post.html">Xem thêm...</a>
+							</div>
+						</div><hr>
+						<div class="row leftc2">
+							<div class="col-md-6 col-sm-6 col-xs-6 imgleftc2">
+								<a href="post.html" title="post"><img src="images/images3.jpg" alt="aa" class="img-responsive"></a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 contentleftc2">
+								<h4><a href="post.html" title="post">Hàng tiêu dùng tết, không thiếu nhưng giá sẽ tăng.</a></h4>
+								<p class="fa fa-clock-o" aria-hidden="true"> 29-01-2016, 09:36 am</p>
+								<p>Bộ công thương giá cả các hàng hóa trong dịp tết sắp tới có thể tăng nhẹ dao động từ 2- 15%, tùy từng mặt hàng...</p>
+								<a href="post.html">Xem thêm...</a>
+							</div>
+						</div><hr>
+						<div class="row leftc2">
+							<div class="col-md-6 col-sm-6 col-xs-6 imgleftc2">
+								<a href="post.html" title="post"><img src="images/images4.jpg" alt="aa" class="img-responsive"></a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 contentleftc2">
+								<h4><a href="post.html" title="post">Hàng tiêu dùng tết, không thiếu nhưng giá sẽ tăng.</a></h4>
+								<p class="fa fa-clock-o" aria-hidden="true"> 29-01-2016, 09:36 am</p>
+								<p>Bộ công thương giá cả các hàng hóa trong dịp tết sắp tới có thể tăng nhẹ dao động từ 2- 15%, tùy từng mặt hàng...</p>
+								<a href="post.html">Xem thêm...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<div class="rightc2">
+							<h3>ĐỌC NHIỀU NHẤT</h3>
+							<div class="ngang"></div>
+							<div class="imgcontentc1">
+								<div class="imgleftc1r">
+									<a href="post.html" title="post"><img src="images/image1.4.jpg" alt="aaa" class="img-responsive"></a>
+								</div>
+								<div class="contentleftc1r">
+									<p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự...</p>
+								</div>
+							</div>
+							<div class="imgcontentc1">
+								<div class="imgleftc1r">
+									<a href="post.html" title="post"><img src="images/image1.1.jpg" alt="aaa" class="img-responsive"></a>
+								</div>
+								<div class="contentleftc1r">
+									<p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự...</p>
+								</div>
+							</div>
+							<div class="imgcontentc1">
+								<div class="imgleftc1r">
+									<a href="post.html" title="post"><img src="images/image1.2.jpg" alt="aaa" class="img-responsive"></a>
+								</div>
+								<div class="contentleftc1r">
+									<p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự...</p>
+								</div>
+							</div>
+							<div class="imgcontentc1">
+								<div class="imgleftc1r">
+									<a href="post.html" title="post"><img src="images/image1.1.jpg" alt="aaa" class="img-responsive"></a>
+								</div>
+								<div class="contentleftc1r">
+									<p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự...</p>
+								</div>
+							</div>
+							<div class="imgcontentc1">
+								<div class="imgleftc1r">
+									<a href="post.html" title="post"><img src="images/image1.2.jpg" alt="aaa" class="img-responsive"></a>
+								</div>
+								<div class="contentleftc1r">
+									<p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự...</p>
+								</div>
+							</div>
+							<div class="imgcontentc1">
+								<div class="imgleftc1r">
+									<a href="post.html" title="post"><img src="images/image1.3.jpg" alt="aaa" class="img-responsive"></a>
+								</div>
+								<div class="contentleftc1r">
+									<p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự...</p>
+								</div>
+							</div>
+							<div class="imgcontentc1">
+								<div class="imgleftc1r">
+									<a href="post.html" title="post"><img src="images/image1.4.jpg" alt="aaa" class="img-responsive"></a>
+								</div>
+								<div class="contentleftc1r">
+									<p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự...</p>
+								</div>
+							</div>
+							<div class="imgcontentc1">
+								<div class="imgleftc1r">
+									<a href="post.html" title="post"><img src="images/image1.5.jpg" alt="aaa" class="img-responsive"></a>
+								</div>
+								<div class="contentleftc1r">
+									<p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="category_pagination">
+						<ul class="pagination">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#" aria-label="Next">
+								<span aria-hidden="true">&gt;</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- begin footer-->
+		<footer>
+			<div class="logo_footer">
+				<div class="container">
+					<ul class="logo_footer_list">
+						<li><a href=""><img src="images/logo1.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo2.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo3.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo4.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo5.png" alt="logo"/></a></li>
+						<li><a href=""><img src="images/logo6.png" alt="logo"/></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--end logo_footer-->
+			<div class="content_footer">
+				<div class="container p0">
+					<div class="row">
+						<div class="col-sm-3 col-xs-6 col_xs1 col1">
+							<a href="index.html" title="post"><img src="images/logo.png" alt="logo"/></a>
+							<p>This is photoshop's version of lorem ipsum proin gravida nibh velit it's a cold world out there.</p>
+							<ul class="col_xs1_list">
+								<li><p><i class="fa fa-map-marker" aria-hidden="true"></i> 0123  Main Road, Your City, NY 123456</p></li>
+								<li><p><i class="fa fa-phone" aria-hidden="true"></i> (000) 2345 - 6789</p></li>
+								<li><p><i class="fa fa-envelope" aria-hidden="true"></i> info@psdfreebies.com</p></li>
+							</ul>
+						</div>
+						<div class="col-sm-3 col-xs-6 col_xs1 col2">
+							<h5>information</h5>
+							<ul class="col_xs1_list">
+								<li>Our Story</li>
+								<li>Privacy & Policy</li>
+								<li>Terms & Conditions</li>
+								<li>Shipping & Delivery</li>
+								<li>Careers</li>
+								<li>faq</li>
+							</ul>
+						</div>
+						<div class="col-sm-3 col-xs-6 col_xs1 col3">
+							<h5>information</h5>
+							<ul class="col_xs1_list">
+								<li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i>Google+</a></li>
+								<li><a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i>Pinterest</a></li>
+								<li><a href=""><i class="fa fa-vimeo" aria-hidden="true"></i>Vimeo</a></li>
+								<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+							</ul>
+							<ul class="col_xs1_list fl_right">
+								<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+								<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+								<li><a href=""><i class="fa fa-rss" aria-hidden="true"></i>rss</a></li>
+								<li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i>youtube</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-3 col-xs-6 col_xs1 col4">
+							<h5>opening time</h5>
+							<p><i class="fa fa-clock-o" aria-hidden="true"></i>Monday - Friday: 08:30 am - 09:30 pm</p>
+							<span>Sat - Sun: 09:00 am - 10:00 pm</span>
+							<h5>payment option</h5>
+							<ul class="col_xs1_list clearfix">
+								<li><a href=""><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-discover" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-amex" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-visa" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-stripe" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-money" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-cc-jcb" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--end content_footer-->
+			<div class="footer" id="footer">
+				<div class="container">
+					<div class="footer_x1">
+						<ul class="footer_x1_list">
+							<li><a href="">Sitemap</a></li>
+							<li><a href="">Searchs</a></li>
+							<li><a href="">Searchs</a></li>
+							<li><a href="">Advance </a></li>
+							<li><a href="">Searchs </a></li>
+							<li><a href="">contact us </a></li>
+						</ul>
+					</div>
+					<div class="footer_x2">
+						<h5><span>
+						&copy;<script>document.write(new Date().getFullYear());</script> <a href="">PSDFreebies.com</a> | All Right Reserved.
+						</span></h5>
+					</div>
+				</div>
+			</div>
+			<!--end footer-->
+		</footer>
+		<!--END FOOTER-->
+		<!--to top-->
+		<div class="totop" style="display: none;">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div>
+		
+		<!--Thư viện Javascript-->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/index.js"></script>
+		<!--script slide-->
+	</body>
+</html>

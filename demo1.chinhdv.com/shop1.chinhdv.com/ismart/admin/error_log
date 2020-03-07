@@ -1,0 +1,2 @@
+[30-Jan-2020 23:39:43 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/yh1pucn4vk6l/public_html/shop1.chinhdv.com/ismart/admin/libraries/database.php on line 7
+[30-Jan-2020 23:39:48 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/yh1pucn4vk6l/public_html/shop1.chinhdv.com/ismart/admin/libraries/database.php on line 7

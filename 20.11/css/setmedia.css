@@ -1,0 +1,115 @@
+
+
+@media (min-width:1200px) /* lg*/ {
+    .row_pc{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .container{
+        width: 1200px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) /* md*/{
+    .list_link_hd{
+        float: left !important;
+    }
+    .nav-menu > .menu-item > .menu-link {
+    padding: 0px 21px;
+}
+.qts_head_top .hotline_pc > a {
+    font-size: 15px;
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+}
+.qts_head_top .hotline_pc .hotline a {
+    font-size: 16px;
+    line-height: 20px;
+}
+.wrapperright .listproduct > ul li {
+    padding-left: 7px;
+}
+.wrapperright .listproduct > ul li a {
+    padding: 5px 9px;
+}
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+    .wrapperright .news ul li {
+    justify-content: initial;
+}
+.wrapperleft {
+    padding-top: 20px;
+}
+.contact {
+    display: none;
+}
+.nav-menu > .menu-item {
+    padding:0;
+}
+}
+
+@media (max-width:767px) /* xs*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+        .wrapperright .news ul li {
+    justify-content: initial;
+}
+.wrapperleft {
+    padding-top: 20px;
+}
+.contact {
+    display: none;
+}
+.footer_top_c h3, .footer_top_cc h3 {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #13e1ea;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+.nav-menu > .menu-item {
+    padding:0;
+}
+}
+
+@media (max-width:480px) {
+    .col-480-12{
+        width: 100% !important;
+    }
+    .col-480-6{
+        width: 50% !important;
+    }
+    .hidden-480{
+        display: none !important;
+    }
+    .visible-480{
+        display: block !important;
+    }
+    .qts_head_top .slogan_pc p {
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer_bot p.right {
+    text-align: center;
+}
+
+}
+@media (max-width: 991px){
+    .row_reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
+
+.visible-480{
+    display: none;
+}

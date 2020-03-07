@@ -1,0 +1,18 @@
+RewriteEngine On
+
+
+
+
+
+#định nghĩa link thân thiện
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)$ index.php?mod=product&controller=index&action=detail&id=$2
+RewriteRule ^product/([a-zA-Z0-9_-]+)-([0-9]+)$ index.php?mod=product&controller=index&action=index&cat_id=$2
+
+
+
+
+
+RewriteRule ^page/([a-zA-Z0-9_-]+)-([0-9]+)$ index.php?mod=page&action=detail&id=$2
+
+RewriteRule ^post$ index.php?mod=post&controller=index&action=index
+RewriteRule ^post/([a-zA-Z0-9_-]+)-([0-9]+)$ index.php?mod=post&controller=index&action=detail&id=$2
