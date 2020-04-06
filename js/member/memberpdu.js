@@ -20,7 +20,7 @@ jQuery(document).ready(function() {
 					
 				}else{
 					// console.log("loi tk");
-					$("#message").html('Tài khoản không chính xác hoặc không tồn tại trên hệ thống. Vui lòng  <a href="dang-ky.htmk">đăng ký</a> nếu chưa có tài khoản').css('color','red');
+					$("#message").html('Tài khoản không chính xác hoặc không tồn tại trên hệ thống. Vui lòng  <a href="/p/dang-ky.html">đăng ký</a> nếu chưa có tài khoản').css('color','red');
 				}
 			}
 		});
