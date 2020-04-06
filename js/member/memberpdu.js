@@ -7,21 +7,29 @@ jQuery(document).ready(function() {
 		// str = str.replace(/(?:\r\n|\r|\n|\n\n)/g, ',');
 		// memberpdusoft = str.split(",");
 
-		$('form').submit(function(event) {
-			event.preventDefault();
+		$('#submit').click(function(event) {
+
+			var pass = $("#password").val().toString();
+			if(pass.length < 5){
+				$("#messagex").html('<i>Mật khẩu phải dài hơn 6 ký tự</i>').css('color','red');
+			}else{
+				$("#messagex").empty();
+			}
 			var email = $("#email").val();
 			var i, count = memberpdusoft.length;
 			for(i=0;i<count;i++){
 				if(email == memberpdusoft[i]){
 					// console.log("tai khoan ok");
 					emptycart();
-					return setCookie("memberpdu", email, 30);
+					setCookie("memberpdu", email, 30);
+					return true;
 					break;
 					
 				}else{
 					// console.log("loi tk");
-					$("#message").html('Tài khoản không chính xác hoặc không tồn tại trên hệ thống. Vui lòng  <a href="/p/dang-ky.html">đăng ký</a> nếu chưa có tài khoản').css('color','red');
+					$("#message").html('Tài khoản không chính xác hoặc không tồn tại trên hệ thống. Vui lòng  <a href="dang-ky.htmk">đăng ký</a> nếu chưa có tài khoản').css('color','red');
 				}
 			}
+			return false;
 		});
 	});
