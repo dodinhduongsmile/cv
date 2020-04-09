@@ -39,6 +39,15 @@ jQuery(document).ready(function() {
       // event.preventDefault();
 
       var email = $("#email").val();
+      //
+      var email_reg=getCookie("email_reg");
+      if (email_reg != "" && email_reg == email) {
+        //xử lý đã đăng ký trước đó, định scam đăng ký
+        // console.log("đã tồn tại cookie ");
+        $("#messagex").html('Email của bạn đã tồn tại trên hệ thống. Vui lòng <strong>đợi duyệt</strong>không đăng ký nhiều lần, tránh bị khóa tài khoản').css('color','red');
+      	return false;
+      }
+      //
       var i, count = memberpdusoft.length;
       for(i=0;i<count;i++){
         if(email != memberpdusoft[i]){
@@ -50,12 +59,6 @@ jQuery(document).ready(function() {
         }else{
           $("#messagex").html('Email của bạn đã tồn tại trên hệ thống. Vui lòng không đăng ký nhiều lần, tránh bị khóa tài khoản').css('color','red');
         }
-      }
-      //
-      var email_reg=getCookie("email_reg");
-      if (email_reg != "" && email_reg == email) {
-        //xử lý đã đăng ký trước đó, định scam đăng ký
-        $("#messagex").html('Email của bạn đã tồn tại trên hệ thống. Vui lòng <strong>đợi duyệt</strong>không đăng ký nhiều lần, tránh bị khóa tài khoản').css('color','red');
       }
 
       return false;
