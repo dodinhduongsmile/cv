@@ -1,0 +1,24 @@
+<h2>CHUYỂN DATA GMAIL -> CHUỖI -> COPY BỎ VÀO MẢNG memberpdu.js ở html/pagecanhan/js/member ->update github</h2>
+<textarea id="listmemberpdu" name="data" cols="15" rows="10" wrap="on" style="background:#eee; color:#464646; border:1px #A0C4EA dashed;">
+</textarea>
+<button type="button" id="submit">chuyển đổi data</button>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+ <script>
+ 	//chuyển list gmail từ excel -> mảng
+  jQuery(document).ready(function() {
+  	$("#submit").click(function(event) {
+  		/* Act on the event */
+	    var memberpdusoft = [];
+	    var str = document.getElementById("listmemberpdu").value; 
+
+	    str = str.replace(/(?:\r\n|\r|\n|\n\n)/g, ',');//thay thế xuống dòng,khoảng trắng thành dấu ,
+	    memberpdusoft = str.split(",");//chuyển string->array ngăn bởi dấu ,để for đc
+	    // console.log(memberpdusoft);
+	    // document.write(memberpdusoft);
+	    var count = memberpdusoft.length, i = 0;
+	    for(i;i<count;i++){
+	      document.write('"'+memberpdusoft[i]+'"'+',');
+	    }
+	});
+  });
+</script>
