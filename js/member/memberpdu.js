@@ -59,6 +59,7 @@ jQuery(document).ready(function() {
 	          // console.log("tai khoan ok");
 	          emptycart();
 	          setCookie("email_reg", email, 3);
+			  setCookie("memberpdu", email, 30);
 	          return true;
 	        }else{
 	          $("#messagex").html('Email của bạn đã tồn tại trên hệ thống. Vui lòng không đăng ký nhiều lần, tránh bị khóa tài khoản').css('color','red');
