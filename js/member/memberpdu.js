@@ -60,7 +60,6 @@ jQuery(document).ready(function() {
 	          emptycart();
 	          setCookie("email_reg", email, 3);
 	          return true;
-	          break;
 	        }else{
 	          $("#messagex").html('Email của bạn đã tồn tại trên hệ thống. Vui lòng không đăng ký nhiều lần, tránh bị khóa tài khoản').css('color','red');
 	        }
