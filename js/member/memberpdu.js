@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
 		// var str = document.getElementById("listmemberpdu").innerHTML; //return string
 		// str = str.replace(/(?:\r\n|\r|\n|\n\n)/g, ',');//thay thế xuống dòng -> ,
 		// memberpdusoft = str.split(",");//string->array
-
+		$("#update_member").html("ĐÃ XÉT DUYỆT MEMBER ĐĂNG KÝ TRƯỚC NGÀY <i>19/4/2020</i>");
 		$('#submit').click(function(event) {
 			// event.preventDefault();
 			var pass = $("#password").val().toString();
