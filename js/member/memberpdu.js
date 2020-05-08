@@ -7,11 +7,13 @@ jQuery(document).ready(function() {
 		// str = str.replace(/(?:\r\n|\r|\n|\n\n)/g, ',');//thay thế xuống dòng -> ,
 		// memberpdusoft = str.split(",");//string->array
 		$("#update_member").html("ĐÃ XÉT DUYỆT MEMBER ĐĂNG KÝ TRƯỚC NGÀY <i>07/05/2020</i>");
+		
 		$('#submit').click(function(event) {
 			// event.preventDefault();
 			var pass = $("#password").val().toString();
-			if(pass.length < 5){
-				$("#messagex").html('<i>Mật khẩu phải dài hơn 6 ký tự</i>').css('color','red');
+			if(pass.length < 4){
+				$("#messagex").html('<i>Mật khẩu không chính xác.Hãy thử lại</i>').css('color','red');
+				return false;
 			}else{
 				$("#messagex").empty();
 			}
@@ -23,8 +25,6 @@ jQuery(document).ready(function() {
 					emptycart();
 					setCookie("memberpdu", email, 60);
 					return true;
-					break;
-					
 				}else{
 					// console.log("loi tk");
 					$("#message").html('Tài khoản không chính xác hoặc không tồn tại trên hệ thống. Vui lòng  <a href="/p/dang-ky.html">đăng ký</a> nếu chưa có tài khoản').css('color','red');
@@ -34,13 +34,20 @@ jQuery(document).ready(function() {
 		});
 
 
-		//
+		//đăng ký
 		$('#submit_reg').click(function(event) {
 	      // event.preventDefault();
-
+			// validate pass
+			var pass = $("#password").val().toString();
+			if(pass.length < 6){
+			  $("#message").html('<i>Mật khẩu phải dài hơn 6 ký tự</i>').css('color','red');
+			  return false;
+			}else{
+			  $("#message").empty();
+			}
+		  //validate email
 	      var email = $("#email").val();
-	      //
-	      var email_reg=getCookie("email_reg");
+	      var email_reg = getCookie("email_reg");
 	      if (email_reg != "" && email_reg == email) {
 	        //xử lý đã đăng ký trước đó, định scam đăng ký
 	        // console.log("đã tồn tại cookie ");
