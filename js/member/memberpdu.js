@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
 		// var str = document.getElementById("listmemberpdu").innerHTML; //return string
 		// str = str.replace(/(?:\r\n|\r|\n|\n\n)/g, ',');//thay thế xuống dòng -> ,
 		// memberpdusoft = str.split(",");//string->array
-		$("#update_member").html("ĐÃ XÉT DUYỆT MEMBER ĐĂNG KÝ TRƯỚC NGÀY <i>07/05/2020</i>");
+		$("#update_member").html("ĐÃ XÉT DUYỆT MEMBER ĐĂNG KÝ TRƯỚC NGÀY <i>06/05/2020</i>");
 		
 		$('#submit').click(function(event) {
 			// event.preventDefault();
@@ -37,15 +37,20 @@ jQuery(document).ready(function() {
 		//đăng ký
 		$('#submit_reg').click(function(event) {
 	      // event.preventDefault();
-			// validate pass
-			var pass = $("#password").val().toString();
-			if(pass.length < 6){
+	      //validate form
+	      if($('#name').val() == ''){
+	      	$('.message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
+	      }else if($('#phone').val() == ''){
+	      	$('.message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
+	      }else if($('#email').val() == ''){
+	      	$('.message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
+	      }else if($("#password").val().toString().length < 6){
 			  $("#message").html('<i>Mật khẩu phải dài hơn 6 ký tự</i>').css('color','red');
 			  return false;
-			}else{
-			  $("#message").empty();
-			}
-		  //validate email
+		  }else{
+			  $("#message, .message").empty();
+		}
+		  //validate check email
 	      var email = $("#email").val();
 	      var email_reg = getCookie("email_reg");
 	      if (email_reg != "" && email_reg == email) {
