@@ -38,6 +38,7 @@ jQuery(document).ready(function() {
 		$('#submit_reg').click(function(event) {
 	      // event.preventDefault();
 	      //validate form
+	      console.log($('#name').val());
 	      if($('#name').val() == ''){
 	      	$('.message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
 	      }else if($('#phone').val() == ''){
