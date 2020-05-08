@@ -40,11 +40,11 @@ jQuery(document).ready(function() {
 	      //validate form
 	      
 	      if($('#name').val() == ''){
-	      	$('#message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
+	      	$('#messagex').html('<i>Hãy điền đầy đủ</i>').css('color','red');
 	      }else if($('#phone').val() == ''){
-	      	$('#message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
+	      	$('#messagex').html('<i>Hãy điền đầy đủ</i>').css('color','red');
 	      }else if($('#email').val() == ''){
-	      	$('#message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
+	      	$('#messagex').html('<i>Hãy điền đầy đủ</i>').css('color','red');
 	      }else if($("#password").val().toString().length < 5){
 			  $("#message").html('<i>Mật khẩu phải dài hơn 5 ký tự</i>').css('color','red');
 			  
@@ -82,5 +82,5 @@ jQuery(document).ready(function() {
 	      return false;
 	    });
 
-	    
+
 	});
