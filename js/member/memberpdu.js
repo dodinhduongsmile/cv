@@ -38,45 +38,49 @@ jQuery(document).ready(function() {
 		$('#submit_reg').click(function(event) {
 	      // event.preventDefault();
 	      //validate form
-	      console.log($('#name').val());
+	      
 	      if($('#name').val() == ''){
-	      	$('.message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
+	      	$('#message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
 	      }else if($('#phone').val() == ''){
-	      	$('.message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
+	      	$('#message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
 	      }else if($('#email').val() == ''){
-	      	$('.message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
-	      }else if($("#password").val().toString().length < 6){
-			  $("#message").html('<i>Mật khẩu phải dài hơn 6 ký tự</i>').css('color','red');
-			  return false;
+	      	$('#message').html('<i>Hãy điền đầy đủ</i>').css('color','red');
+	      }else if($("#password").val().toString().length < 5){
+			  $("#message").html('<i>Mật khẩu phải dài hơn 5 ký tự</i>').css('color','red');
+			  
 		  }else{
 			  $("#message, .message").empty();
+
+			  //validate check email
+		      var email = $("#email").val();
+		      var email_reg = getCookie("email_reg");
+		      if (email_reg != "" && email_reg == email) {
+		        //xử lý đã đăng ký trước đó, định scam đăng ký
+		        // console.log("đã tồn tại cookie ");
+		        $("#messagex").html('Email của bạn đã tồn tại trên hệ thống. Vui lòng <strong>đợi duyệt</strong> không đăng ký nhiều lần, tránh bị khóa tài khoản').css('color','red');
+		      	return false;
+		      }
+		      //
+		      var i,status=0, count = memberpdusoft.length;
+		      for(i=0;i<count;i++){
+		        if(email == memberpdusoft[i]){
+		        	status=1;
+		        	break;
+		        }
+		      }
+		      if(status == 0){
+		          // console.log("tai khoan ok");
+		          emptycart();
+		          setCookie("email_reg", email, 3);
+				  setCookie("memberpdu", email, 60);
+		          return true;
+		        }else{
+		          $("#messagex").html('Email của bạn đã tồn tại trên hệ thống. Vui lòng không đăng ký nhiều lần, tránh bị khóa tài khoản').css('color','red');
+		        }
 		}
-		  //validate check email
-	      var email = $("#email").val();
-	      var email_reg = getCookie("email_reg");
-	      if (email_reg != "" && email_reg == email) {
-	        //xử lý đã đăng ký trước đó, định scam đăng ký
-	        // console.log("đã tồn tại cookie ");
-	        $("#messagex").html('Email của bạn đã tồn tại trên hệ thống. Vui lòng <strong>đợi duyệt</strong> không đăng ký nhiều lần, tránh bị khóa tài khoản').css('color','red');
-	      	return false;
-	      }
-	      //
-	      var i,status=0, count = memberpdusoft.length;
-	      for(i=0;i<count;i++){
-	        if(email == memberpdusoft[i]){
-	        	status=1;
-	        	break;
-	        }
-	      }
-	      if(status == 0){
-	          // console.log("tai khoan ok");
-	          emptycart();
-	          setCookie("email_reg", email, 3);
-			  setCookie("memberpdu", email, 60);
-	          return true;
-	        }else{
-	          $("#messagex").html('Email của bạn đã tồn tại trên hệ thống. Vui lòng không đăng ký nhiều lần, tránh bị khóa tài khoản').css('color','red');
-	        }
+		  
 	      return false;
 	    });
+
+	    
 	});
