@@ -1,6 +1,0 @@
-#bật link thân thiện
-RewriteEngine On
-
-#định nghĩa link thân thiện
-RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=product&controller=index&action=detail&id=$2
-RewriteRule ^bai-viet/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=post&controller=index&action=detail&id=$2
