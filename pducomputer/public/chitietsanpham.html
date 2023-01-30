@@ -1,0 +1,1581 @@
+<!doctype html>
+    <html class="no-js" lang="vi">
+      <!--<![endif]-->
+      <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+      <head>
+        <!-- Basic page needs ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta property="og:locale" content="vi_VN">
+        <link rel="alternate" hreflang="x-default" href="index.html">
+        <link rel="alternate" hreflang="vi" href="index.html">
+        <meta name="revisit" content="1 days">
+        <meta name="robots" content="index,follow">
+        <link rel="shortcut icon" href="images/favicon9d71.png?v=742" type="image/png" />
+        <!-- Title and description ================================================== -->
+        <title>
+          Hệ thống cửa hàng thiết bị pducomputer &ndash; pducomputer
+        </title>
+        <meta name="description" content="Suplo Lavatory chuy&#234;n cung cấp c&#225;c mặt h&#224;ng về nội thất gia đ&#236;nh. Lu&#244;n mang lại sự h&#224;u l&#242;ng cho c&#225;c kh&#225;ch h&#224;ng.Haravan theme. Giao diện haravan. Suplo theme. Suplo.">
+        <!-- Helpers ================================================== -->
+        <!-- /snippets/social-meta-tags.liquid -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Hệ thống cửa hàng thiết bị vệ sinh Lavatory">
+        <meta property="og:description" content="Suplo Lavatory chuyên cung cấp các mặt hàng về nội thất gia đình. Luôn mang lại sự hàu lòng cho các khách hàng.Haravan theme. Giao diện haravan. Suplo theme. Suplo.">
+        <meta property="og:image" content="images/share_fb_home9d71.png?v=742" />
+        <meta property="og:image:secure_url" content="images/share_fb_home9d71.png?v=742" />
+        <meta property="og:url" content="index.html">
+        <meta property="og:site_name" content="Suplo Lavatory">
+        <meta name="twitter:site" content="@https://">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Hệ thống cửa hàng thiết bị vệ sinh Lavatory">
+        <meta name="twitter:description" content="Suplo Lavatory chuy&#234;n cung cấp c&#225;c mặt h&#224;ng về nội thất gia đ&#236;nh. Lu&#244;n mang lại sự h&#224;u l&#242;ng cho c&#225;c kh&#225;ch h&#224;ng.Haravan theme. Giao diện haravan. Suplo theme. Suplo.">
+        <link rel="canonical" href="index.html">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <meta name="theme-color" content="#55acee">
+        <!-- CSS ================================================== -->
+        <link href='css/timber.scss9d71.css?v=742' rel='stylesheet' type='text/css'  media='all'  />
+        <link href='css/suplo-style.scss9d71.css?v=742' rel='stylesheet' type='text/css'  media='all'  />
+        <link href='css/owl.carousel9d71.css?v=742' rel='stylesheet' type='text/css'  media='all'  />
+        <link href='css/owl.theme9d71.css?v=742' rel='stylesheet' type='text/css'  media='all'  />
+        <link href='css/owl.transitions9d71.css?v=742' rel='stylesheet' type='text/css'  media='all'  />
+        <link href='css/animate9d71.css?v=742' rel='stylesheet' type='text/css'  media='all'  />
+        <!-- <link href='css/slick9d71.css?v=742' rel='stylesheet' type='text/css'  media='all'  /> -->
+        <!-- <link href='css/slick-theme9d71.css?v=742' rel='stylesheet' type='text/css'  media='all'  /> -->
+        <link href='css/style.css' rel='stylesheet' type='text/css'  media='all'/>
+        <!-- Header hook for plugins ================================================== -->
+        <script src='js/jquery.min.js' type='text/javascript'></script>
+        <script src='js/modernizr.min9d71.js?v=742' type='text/javascript'></script>
+        <script src='js/owl.carousel.min9d71.js?v=742' type='text/javascript'></script>
+        <!-- <script src='js/slick.min9d71.js?v=742' type='text/javascript'></script> -->
+        <!-- <script src="js/lazyload.js"></script> -->
+        <script type="text/javascript">
+          // window.addEventListener("load", function(event) {
+          //    // lazyload();
+          //    var i;
+          //    var lazyloadpdu = document.getElementsByClassName('lazyloadpdu');
+          //    var videolength = lazyloadpdu.length;
+          //    for(i = 0; i < videolength; i++ ){
+          //       lazyloadpdu[i].setAttribute('src', lazyloadpdu[i].getAttribute('data-pdu'));
+          //    }
+          // });
+document.addEventListener("DOMContentLoaded", function() {
+    lazyLoadDom();
+
+});
+          // ===================
+          var lazyLoadDom = function() {
+
+    let lazyImages = [].slice.call(document.querySelectorAll(".lazyloadpdu"));
+    let active = false;
+
+    const lazyLoad = function() {
+        if (active === false) {
+            active = true;
+
+            setTimeout(function() {
+                lazyImages.forEach(function(lazyImage) {
+  if ((lazyImage.getBoundingClientRect().top <= window.innerHeight && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
+                        lazyImage.src = lazyImage.dataset.pdu;
+                        // lazyImage.onerror = onImageError;
+                        lazyImage.classList.remove("lazyloadpdu");
+
+                        lazyImages = lazyImages.filter(function(image) {
+                            return image !== lazyImage;
+                        });
+
+                        if (lazyImages.length === 0) {
+                            document.removeEventListener("scroll", lazyLoad);
+                            window.removeEventListener("resize", lazyLoad);
+                            window.removeEventListener("orientationchange", lazyLoad);
+                        }
+                    }
+                });
+
+                active = false;
+            }, 200);
+        }
+    };
+
+    document.addEventListener("scroll", lazyLoad);
+    window.addEventListener("resize", lazyLoad);
+    window.addEventListener("orientationchange", lazyLoad);
+    lazyLoad();
+}
+
+        </script>
+        <!-- Font Aweseome -->
+        <script defer src="js/all.js"></script>
+        <script src="js/wow.min.js"></script>
+      </head>
+      <body id="he-thong-cua-hang-thiet-bi-pducomputer" class="template-index" >
+        <!-- menu mobie -->
+        <div id="NavDrawer" class="drawer drawer--right">
+          <div class="drawer__header">
+            <div class="drawer__close js-drawer-close">
+              <button type="button" class="icon-fallback-text">
+              <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <!-- begin mobile-nav -->
+          <ul class="mobile-nav">
+            <li class="mobile-nav__item mobile-nav__search">
+              <form action="https://suplo-lavatory.myharavan.com/search" method="get" class="input-group search-bar" role="search">
+                <input type="hidden" name="type" value="product">
+                <input type="search" id="main-search-form-input" name="q" value="" placeholder="Tìm sản phẩm..." class="input-group-field" aria-label="Tìm sản phẩm...">
+                <span class="input-group-btn">
+                <button type="submit" class="btn icon-fallback-text">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+                </span>
+              </form>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item--active">
+              <a href="index.html" class="mobile-nav__link">Trang chủ</a>
+            </li>
+            <li class="mobile-nav__item" aria-haspopup="true">
+              <div class="mobile-nav__has-sublist">
+                <a href="collections/all.html" class="mobile-nav__link">Sản phẩm</a>
+                <div class="mobile-nav__toggle">
+                  <button type="button" class="icon-fallback-text mobile-nav__toggle-open">
+                  <span class="icon icon-plus" aria-hidden="true"></span>
+                  <span class="fallback-text">See More</span>
+                  </button>
+                  <button type="button" class="icon-fallback-text mobile-nav__toggle-close">
+                  <span class="icon icon-minus" aria-hidden="true"></span>
+                  <span class="fallback-text">"Đóng"</span>
+                  </button>
+                </div>
+              </div>
+              <ul class="mobile-nav__sublist">
+                <li class="mobile-nav__item mobile-nav__item--active" aria-haspopup="true">
+                  <div class="mobile-nav__has-sublist">
+                    <a href="index.html" class="mobile-nav__link">Bàn cầu Inax</a>
+                    <div class="mobile-nav__toggle">
+                      <button type="button" class="icon-fallback-text mobile-nav__toggle-open">
+                      <span class="icon icon-plus" aria-hidden="true"></span>
+                      <span class="fallback-text">See More</span>
+                      </button>
+                      <button type="button" class="icon-fallback-text mobile-nav__toggle-close">
+                      <span class="icon icon-minus" aria-hidden="true"></span>
+                      <span class="fallback-text">"Đóng"</span>
+                      </button>
+                    </div>
+                  </div>
+                  <ul class="mobile-nav__sublist">
+                    <li class="mobile-nav__item ">
+                      <a href="collections/hot-products.html" class="mobile-nav__link">B&#224;n cầu 1 khối</a>
+                    </li>
+                    <li class="mobile-nav__item ">
+                      <a href="collections/onsale.html" class="mobile-nav__link">B&#224;n cầu 2 khối</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mobile-nav__item mobile-nav__item--active" aria-haspopup="true">
+                  <div class="mobile-nav__has-sublist">
+                    <a href="index.html" class="mobile-nav__link">Chậu rửa</a>
+                    <div class="mobile-nav__toggle">
+                      <button type="button" class="icon-fallback-text mobile-nav__toggle-open">
+                      <span class="icon icon-plus" aria-hidden="true"></span>
+                      <span class="fallback-text">See More</span>
+                      </button>
+                      <button type="button" class="icon-fallback-text mobile-nav__toggle-close">
+                      <span class="icon icon-minus" aria-hidden="true"></span>
+                      <span class="fallback-text">"Đóng"</span>
+                      </button>
+                    </div>
+                  </div>
+                  <ul class="mobile-nav__sublist">
+                    <li class="mobile-nav__item ">
+                      <a href="collections/hot-products.html" class="mobile-nav__link">Chậu rửa đặt b&#224;n</a>
+                    </li>
+                    <li class="mobile-nav__item ">
+                      <a href="collections/onsale.html" class="mobile-nav__link">Chậu rửa Cabinet</a>
+                    </li>
+                    <li class="mobile-nav__item ">
+                      <a href="collections/onsale.html" class="mobile-nav__link">Chậu rửa treo</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mobile-nav__item mobile-nav__item--active" aria-haspopup="true">
+                  <div class="mobile-nav__has-sublist">
+                    <a href="index.html" class="mobile-nav__link">Phụ kiện</a>
+                    <div class="mobile-nav__toggle">
+                      <button type="button" class="icon-fallback-text mobile-nav__toggle-open">
+                      <span class="icon icon-plus" aria-hidden="true"></span>
+                      <span class="fallback-text">See More</span>
+                      </button>
+                      <button type="button" class="icon-fallback-text mobile-nav__toggle-close">
+                      <span class="icon icon-minus" aria-hidden="true"></span>
+                      <span class="fallback-text">"Đóng"</span>
+                      </button>
+                    </div>
+                  </div>
+                  <ul class="mobile-nav__sublist">
+                    <li class="mobile-nav__item ">
+                      <a href="collections/hot-products.html" class="mobile-nav__link">Phụ kiện nh&#224; bếp</a>
+                    </li>
+                    <li class="mobile-nav__item ">
+                      <a href="collections/onsale.html" class="mobile-nav__link">Phụ kiện ph&#242;ng tắm</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="mobile-nav__item" aria-haspopup="true">
+              <div class="mobile-nav__has-sublist">
+                <a href="pages/tat-ca-tin-tuc.html" class="mobile-nav__link">Tin tức</a>
+                <div class="mobile-nav__toggle">
+                  <button type="button" class="icon-fallback-text mobile-nav__toggle-open">
+                  <span class="icon icon-plus" aria-hidden="true"></span>
+                  <span class="fallback-text">See More</span>
+                  </button>
+                  <button type="button" class="icon-fallback-text mobile-nav__toggle-close">
+                  <span class="icon icon-minus" aria-hidden="true"></span>
+                  <span class="fallback-text">"Đóng"</span>
+                  </button>
+                </div>
+              </div>
+              <ul class="mobile-nav__sublist">
+                <li class="mobile-nav__item" aria-haspopup="true">
+                  <div class="mobile-nav__has-sublist">
+                    <a href="blogs/news.html" class="mobile-nav__link">Tin tức</a>
+                  </div>
+                </li>
+                <li class="mobile-nav__item" aria-haspopup="true">
+                  <div class="mobile-nav__has-sublist">
+                    <a href="blogs/tin-tuc-thi-truong.html" class="mobile-nav__link">Tin tức thị trường</a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="pages/about-us.html" class="mobile-nav__link">Giới thiệu</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="pages/lien-he.html" class="mobile-nav__link">Liên hệ</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="pages/cua-hang.html" class="mobile-nav__link">Cửa hàng</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="account/login.html" id="customer_login_link">Đăng nhập</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="account/register.html" id="customer_register_link">Đăng kí</a>
+            </li>
+          </ul>
+          <!-- //mobile-nav -->
+        </div>
+        <div class="cart-overlay"></div>
+        <div id="CartDrawer" class="drawer drawer--left">
+          <div class="drawer__header">
+            <div class="drawer__title h3">Giỏ hàng</div>
+            <div class="drawer__close js-drawer-close">
+              <button type="button" class="icon-fallback-text">
+              <span class="icon icon-x" aria-hidden="true"></span>
+              <span class="fallback-text">"Đóng"</span>
+              </button>
+            </div>
+          </div>
+          <div id="CartContainer"></div>
+        </div>
+        <header id="header">
+          <div class="desktop-header medium--hide small--hide">
+            <div class="desktop-header-top">
+              <div class="wrapper">
+                <div class="inner">
+                  <div class="grid">
+                    <div class="grid__item large--eight-twelfths">
+                      <div class="hdt-left-contact wow fadeInLeft" data-wow-duration="0.75s" data-wow-delay="0.2s">
+                        <strong>Tư vấn 24h :</strong><a href="tel:(+84) 934 323 882"> (+84) 934 323 882</a>
+                        <p>
+                          <strong>Địa chỉ :</strong><span>Số 1 Lương Yên, Q.Hai Bà Trưng, Hà Nội</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="grid__item large--four-twelfths text-right">
+                      <div class="hd-account wow fadeInRight">
+                        <a href="javascript:void()"><i class="fa fa-user" aria-hidden="true"></i> Tài khoản</a>
+                        <div class="hd-account-content">
+                          <ul class="no-bullets">
+                            <li>
+                              <a href="account/login.html">Đăng nhập</a>
+                            </li>
+                            <li>
+                              <a href="account/register.html">Đăng ký</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="desktop-cart-wrapper wow fadeInRight">
+                        <a href="javascript:void(0)" class="hd-cart">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>Giỏ hàng(<span class="hd-cart-count">0</span>)
+                        </a>
+                        <div class="quickview-cart">
+                          <h3>
+                            Giỏ hàng của tôi (2 sản phẩm)
+                            <span class="btnCloseQVCart"><i class="fa fa-times" aria-hidden="true"></i></span>
+                          </h3>
+                          <ul class="no-bullets">
+                            <li class="cart-item">
+                              <a href="/cart/change?line=1&amp;quantity=0" class="cart__remove"><i class="fa fa-times" aria-hidden="true"></i></a>
+                              <div class="grid mg-left-15">
+                                <div class="grid__item large--four-twelfths medium--four-twelfths small--four-twelfths pd-left15">
+                                  <div class="cart-item-img text-center">
+                                    <a href="/products/ban-cau-cotto-nhap-khau-tu-thai-lan">
+                                    <img src="images/logo9d71.png?v=742" alt="BÀN CẦU  COTTO (NHẬP KHẨU TỪ THÁI LAN)">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="grid__item large--eight-twelfths medium--eight-twelfths small--eight-twelfths pd-left15">
+                                  <div class="cart-item-info text-left">
+                                    <a href="/products/ban-cau-cotto-nhap-khau-tu-thai-lan">BÀN CẦU  COTTO (NHẬP KHẨU TỪ THÁI LAN)</a> 
+                                    <small>Trắng / 90cm x 50cm</small>
+                                  </div>
+                                  <div class="cart-item-price-quantity text-left">
+                                    <span class="quantity">Số lượng: 1</span>
+                                    <span class="current-price">Giá/sp: 3,200,000₫</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="cart-item">
+                              <a href="/cart/change?line=2&amp;quantity=0" class="cart__remove"><i class="fa fa-times" aria-hidden="true"></i></a>
+                              <div class="grid mg-left-15">
+                                <div class="grid__item large--four-twelfths medium--four-twelfths small--four-twelfths pd-left15">
+                                  <div class="cart-item-img text-center">
+                                    <a href="/products/ban-cau-mot-khoi-nhap-khau-tu-thai-lan">
+                                    <img src="images/logo9d71.png?v=742" alt="BÀN CẦU MỘT KHỐI (NHẬP KHẨU TỪ THÁI LAN)">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="grid__item large--eight-twelfths medium--eight-twelfths small--eight-twelfths pd-left15">
+                                  <div class="cart-item-info text-left">
+                                    <a href="/products/ban-cau-mot-khoi-nhap-khau-tu-thai-lan">BÀN CẦU MỘT KHỐI (NHẬP KHẨU TỪ THÁI LAN)</a> 
+                                    <small>Trắng / 90cm x 50cm</small>
+                                  </div>
+                                  <div class="cart-item-price-quantity text-left">
+                                    <span class="quantity">Số lượng: 1</span>
+                                    <span class="current-price">Giá/sp: 2,200,000₫</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                          <div class="qv-cart-total">
+                            Tạm tính: <span>5,400,000₫</span>
+                          </div>
+                          <div class="quickview-cartactions clearfix">
+                            <a href="/cart">Xem giỏ hàng</a>
+                            <a href="/checkout">Thanh toán</a>
+                          </div>
+                          <!-- nếu chưa có sp -->
+                          <h3>
+                            Giỏ hàng trống
+                            <span class="btnCloseQVCart"><i class="fa fa-times" aria-hidden="true"></i></span>
+                          </h3>
+                          <ul class="no-bullets">
+                            <li>Bạn chưa có sản phẩm nào trong giỏ hàng!</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="desktop-header-center">
+              <div class="wrapper">
+                <div class="inner">
+                  <div class="grid">
+                    <div class="grid__item large--three-twelfths">
+                      <div class="hd-logo wow fadeInUp">
+                        <h1>
+                          <a href="index.html">
+                          Hệ thống cửa hàng thiết bị vệ sinh Lavatory<img src="images/logo9d71.png?v=742" alt="Hệ thống cửa hàng thiết bị vệ sinh Lavatory" />
+                          </a>
+                        </h1>
+                      </div>
+                    </div>
+                    <div class="grid__item large--six-twelfths">
+                      <div class="hdt-right-search wow zoomIn">
+                        <div class="search-form-wrapper">
+                          <form id="searchauto" action="https://suplo-lavatory.myharavan.com/search" class="searchform-categoris ultimate-search">
+                            <div class="wpo-search">
+                              <div class="wpo-search-inner">
+                                <select class="select-collection">
+                                  <option value="0">Tất cả</option>
+                                  <option value="1001294552">Bồn tắm</option>
+                                  <option value="1001294555">Vòi chậu và sen tắm</option>
+                                  <option value="1001294553">Vòi sen</option>
+                                  <option value="1001294554">Phụ kiện</option>
+                                  <option value="1001294556">Bình nóng lạnh</option>
+                                </select>
+                                <div class="input-group">
+                                  <input type="hidden" name="type" value="product" />
+                                  <input id="searchtext" name="q" id="s" maxlength="40" class="form-control input-search" type="text" size="20" placeholder="Tìm kiếm sản phẩm...">
+                                  <span class="input-group-btn">
+                                  <button type="submit" id="searchsubmit"><i class="fas fa-search"></i></button>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                          <!-- gõ search sẽ js trả về sp -->
+                          <div class="smart-search-wrapper search-wrapper" style="width: min-content; left: 320.25px; top: 110px; display: none;">
+                            <a data-title="Bồn rửa mặt TYUIHN" class="thumbs" href="/products/bon-rua-mat-tyuihn"> <img src="images/slideshow_19d71.png?v=742"></a>
+                            <a data-title="Bồn rửa mặt TYUIHN" href="/products/bon-rua-mat-tyuihn">Bồn rửa mặt TYUIHN<span class="price-search">2,800,000đ</span></a>
+                            <a data-title="Bồn rửa mặt FUIIUY" class="thumbs" href="/products/bon-rua-mat-fuiiuy"> <img src="images/slideshow_19d71.png?v=742"></a>
+                            <a data-title="Bồn rửa mặt FUIIUY" href="/products/bon-rua-mat-fuiiuy">Bồn rửa mặt FUIIUY<span class="price-search">3,500,000đ</span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid__item large--three-twelfths">
+                      <div class="home-hotline">
+                        <div class="hotline-bg wow fadeInRight">
+                          <p class="hd-hotline-phone">
+                            <strong>Hottline: </strong><a href="tel:(+84) 934 323 882">(+84) 934 323 882</a>
+                          </p>
+                          <p class="hd-hotline-email">
+                            <strong>Email: </strong><a href="mailto:support@suplo.vn"><i class="fas fa-envelope"></i> support@suplo.vn</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="desktop-header-main-menu">
+              <div class="wrapper">
+                <div class="inner">
+                  <div class="text-left">
+                    <div class="desktop-header-navbar">
+                      <ul class="no-bullets">
+                        <li class="wow fadeInRight "data-wow-delay="0.2s" data-wow-duration="0.75s">
+                          <a href="index.html">Trang chủ </a>
+                        </li>
+                        <li class="wow fadeInRight dropdown" data-wow-delay="0.4s" data-wow-duration="0.75s">
+                          <a href="all.html">Sản phẩm <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                          <ul class="no-bullets">
+                            <li class="has-child">
+                              <i class="fas fa-caret-right"></i> 
+                              <a href="index.html">Bàn cầu Inax <i class="fas fa-angle-right"></i></a>
+                              <ul class="no-bullets">
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Bàn cầu 1 khối</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Bàn cầu 2 khối</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Bàn cầu treo tường</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Bàn cầu cảm ứng</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-child">
+                              <i class="fas fa-caret-right"></i> 
+                              <a href="index.html">Chậu rửa <i class="fas fa-angle-right"></i></a>
+                              <ul class="no-bullets">
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Chậu rửa đặt bàn</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Chậu rửa Cabinet</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Chậu rửa treo</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-child">
+                              <i class="fas fa-caret-right"></i> 
+                              <a href="index.html">Bồn tiểu <i class="fas fa-angle-right"></i></a>
+                              <ul class="no-bullets">
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Phụ kiện bồn tiểu</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Van xả bồn tiểu</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-child">
+                              <i class="fas fa-caret-right"></i> 
+                              <a href="index.html">Bồn tắm <i class="fas fa-angle-right"></i></a>
+                              <ul class="no-bullets">
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Bồn tắm massage</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Bồn tắm vách kính</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Bồn tắm Ocean</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Phụ kiện bồn tắm</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-child">
+                              <i class="fas fa-caret-right"></i> 
+                              <a href="index.html">Vòi chậu và sen tắm <i class="fas fa-angle-right"></i></a>
+                              <ul class="no-bullets">
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Vòi rửa mặt</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Vòi bếp</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Vòi cảm ứng</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Sen cây</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-child">
+                              <i class="fas fa-caret-right"></i> 
+                              <a href="index.html">Bình nóng lạnh <i class="fas fa-angle-right"></i></a>
+                              <ul class="no-bullets">
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Bình nhập khẩu</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Bình nội địa</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="has-child">
+                              <i class="fas fa-caret-right"></i> 
+                              <a href="index.html">Phụ kiện <i class="fas fa-angle-right"></i></a>
+                              <ul class="no-bullets">
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="hot-products.html">Phụ kiện nhà bếp</a>
+                                </li>
+                                <li>
+                                  <i class="fas fa-circle"></i>
+                                  <a href="onsale.html">Phụ kiện phòng tắm</a>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class=
+                          " 
+                          wow fadeInRight 
+                          dropdown"
+                          data-wow-delay="0.6s" data-wow-duration="0.75s">
+                          <a href="pages/tat-ca-tin-tuc.html">Tin tức <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                          <ul class="no-bullets">
+                            <li class="">
+                              <i class="fas fa-caret-right"></i> 
+                              <a href="blogs/news.html">Tin tức </a>
+                            </li>
+                            <li class="">
+                              <i class="fas fa-caret-right"></i> 
+                              <a href="blogs/tin-tuc-thi-truong.html">Tin tức thị trường </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class=
+                          " 
+                          wow fadeInRight 
+                          "
+                          data-wow-delay="0.8s" data-wow-duration="0.75s">
+                          <a href="pages/about-us.html">Giới thiệu </a>
+                        </li>
+                        <li class=
+                          " 
+                          wow fadeInRight 
+                          "
+                          data-wow-delay="1s" data-wow-duration="0.75s">
+                          <a href="pages/lien-he.html">Liên hệ </a>
+                        </li>
+                        <li class=
+                          " 
+                          wow fadeInRight 
+                          "
+                          data-wow-delay="1.2s" data-wow-duration="0.75s">
+                          <a href="pages/cua-hang.html">Cửa hàng </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-header large--hide">
+            <div class="wrapper">
+              <div class="inner">
+                <div class="grid">
+                  <div class="grid__item medium--one-third small--one-third">
+                    <div class="hd-logo text-left">
+                      <a href="index.html">
+                      <img src="images/logo9d71.png?v=742" alt="Hệ thống cửa hàng thiết bị vệ sinh Lavatory" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="grid__item large--two-twelfths push--large--eight-twelfths medium--two-thirds small--two-thirds text-right">
+                    <div class="desktop-cart-wrapper1">
+                      <a href="javascript:void(0)" class="hd-cart">
+                      <i class="fas fa-shopping-bag"></i><span class="hd-cart-count">0</span>
+                      </a>
+                      <div class="quickview-cart">
+                        <h3>
+                          Giỏ hàng trống
+                          <span class="btnCloseQVCart"><i class="fa fa-times" aria-hidden="true"></i></span>
+                        </h3>
+                        <ul class="no-bullets">
+                          <li>Bạn chưa có sản phẩm nào trong giỏ hàng!</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="hd-btnMenu">
+                      <a href="javascript:void(0)" class="icon-fallback-text site-nav__link js-drawer-open-right" aria-controls="NavDrawer" aria-expanded="false">
+                      <i class="fas fa-bars"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- end header -->
+        <section id="breadcrumb-wrapper" class="breadcrumb-w-img">
+          <div class="breadcrumb-overlay"></div>
+          <div class="breadcrumb-content">
+            <div class="wrapper">
+              <div class="inner text-center">
+                <div class="breadcrumb-big">
+                  <h2>
+                    Laptop Dell Inspiron 5520 (Core i5 3210M, RAM 4GB, HDD 500GB, Intel HD Graphics 4000, 15.6 inch)
+                  </h2>
+                </div>
+                <div class="breadcrumb-small">
+                  <a href="index.html" title="Quay trở về trang chủ">Trang chủ</a>
+                  <span aria-hidden="true">/</span>
+                  <a href="binh-nong-lanh.html" title="">Bình nóng lạnh</a>
+                  <span aria-hidden="true">/</span>
+                  <span>BÀN CẦU MỘT KHỐI (NHẬP KHẨU TỪ THÁI LAN)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div id="PageContainer" class="is-moved-by-drawer">
+          <main class="main-content" role="main">
+            <section id="product-wrapper">
+              <div class="wrapper">
+                <div class="inner">
+                    <div class="grid product-single" >
+                      <div class="grid__item large--five-twelfths medium--one-whole small--one-whole wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.75s">
+                        <div class="product-single__photos" >
+                          <div id="ProductPhoto" class="owl-carousel owl-enable" data-slide="1" data-pagination="false" data-nav="true">
+                            <div class="item" >
+                              <div class="tile" data-scale="2" data-pdu="uploads/product/10-min_f5cd86e4654d423fb26a0bba9d473af6_master.jpg"></div>
+                            </div>
+                            <div class="item" >
+                              <div class="tile" data-scale="2" data-pdu="uploads/product/11-min_984de96a001f4b599389ea8185c94743_master.jpg"></div>
+                            </div>
+                            <div class="item" >
+                              <div class="tile" data-scale="2" data-pdu="uploads/product/9.1-min_60cf34e2353a4c969bc2b5e920261cfc_master.jpg"></div>
+                            </div>
+                            <!-- item video -->
+                            <div class="item" >
+                              <img class="lazyloadvideo" src="images/playvideo.jpg" data-videopdu="https://www.youtube.com/embed/GlnQIgCT1e4"/>
+                              <div class="iframevideo"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="product-single__thumbnails inline-list" id="ProductThumbs"  data-nav="false">
+                          <div class="inner">
+                            <li class="thumbnail-item">
+                              <a href="" class="product-single__thumbnail"  data-pos="0">
+                              <img class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="uploads/product/10-min_f5cd86e4654d423fb26a0bba9d473af6_master.jpg" alt="BÀN CẦU MỘT KHỐI (NHẬP KHẨU TỪ THÁI LAN)" >
+                              </a>
+                            </li>
+                            <li class="thumbnail-item">
+                              <a href="" class="product-single__thumbnail"  data-pos="1">
+                              <img class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="uploads/product/11-min_984de96a001f4b599389ea8185c94743_master.jpg"  alt="BÀN CẦU MỘT KHỐI (NHẬP KHẨU TỪ THÁI LAN)">
+                              </a>
+                            </li>
+                            <li class="thumbnail-item">
+                              <a href="" class="product-single__thumbnail"  data-pos="2">
+                              <img class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="uploads/product/9.1-min_60cf34e2353a4c969bc2b5e920261cfc_compact.jpg" alt="BÀN CẦU MỘT KHỐI (NHẬP KHẨU TỪ THÁI LAN)">
+                              </a>
+                            </li>
+                            <!-- video -->
+                            <li class="thumbnail-item">
+                              <a href="" class="product-single__thumbnail"  data-pos="3">
+                              <img class="lazyloadvideo" src="images/playvideo.jpg" data-videopdu="https://www.youtube.com/embed/GlnQIgCT1e4" alt="">
+                              </a>
+                            </li>
+                          </div>
+                          <div class="product-thumb-control">
+                            <button class="btn up">
+                            <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn down">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                        </ul>
+                      </div>
+                      <style>
+                        .photo{position:absolute;top:0;left:0;width:100%;height:100%;background-repeat:no-repeat;background-position:center;background-size:cover;-webkit-transition:-webkit-transform .5s ease-out;transition:-webkit-transform .5s ease-out;-o-transition:transform .5s ease-out;transition:transform .5s ease-out;transition:transform .5s ease-out,-webkit-transform .5s ease-out;cursor:-webkit-zoom-in;cursor:zoom-in}#ProductPhoto .item{width:100%;height:480px}#ProductPhoto .item .tile{width:100%;height:100%}.iframevideo{width:100%;height:100%}.iframevideo iframe{width:100%;height:100%}
+                      </style>
+                      <script>
+                        jQuery(document).ready(function($) {
+                           $(".lazyloadvideo").on('click', function(event) {
+                           /* Act on the event */
+                          $(".iframevideo").html('<iframe src="' + $(this).attr('data-videopdu') + '"></iframe>');
+                          $(".iframevideo").prev().remove();
+                        });
+                        //dataZoomIMG_PRODUCT
+                        $('#ProductPhoto .item .tile')
+                        // tiles set up
+                            .each(function(){
+                              $(this)
+                                // add a photo container
+                                .append('<div class="photo"></div>')
+                                // some text just to show zoom level on current item in this example
+                                // set up a background image for each tile based on data-image attribute
+                                .children('.photo').css({'background-image': 'url('+ $(this).attr('data-pdu') +')'});
+                            })
+                            // tile mouse actions
+                            .on('mouseover', function(){
+                              $(this).children('.photo').css({'transform': 'scale('+ $(this).attr('data-scale') +')'});
+                          })
+                            .on('mouseout', function(){
+                              $(this).children('.photo').css({'transform': 'scale(1)'});
+                          })
+                            .on('mousemove', function(e){
+                              $(this).children('.photo').css({'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +'%'});
+                          })
+                        });
+                            
+                      </script>
+                      <div class="grid__item large--seven-twelfths medium--one-whole small--one-whole wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.75s">
+                        <div class="product-content">
+                          <div class="pro-content-head clearfix">
+                            <h1 itemprop="name">Laptop Dell Inspiron 5520 (Core i5 3210M, RAM 4GB, HDD 500GB, Intel HD Graphics 4000, 15.6 inch)</h1>
+                            <div class="pro-brand">
+                              <span class="title">Thương hiệu:</span> <a href="vendorsdc7c.html?q=thach-anh&amp;view=vendor-alt">Thạch Anh</a>
+                            </div>
+                            <span>|</span>
+                            <div class="pro-type">
+                              <span class="title">Loại: <a href="types8ac4.html?q=khac&amp;view=type-alt">Khác</a></span>
+                            </div>
+                            <span>|</span>
+                            <div class="pro-sku ProductSku">
+                              <span class="title">Mã SP:</span> <span class="sku-number">479285</span>
+                            </div>
+                          </div>
+                          <div class="pro-price clearfix">
+                            <span class="current-price ProductPrice">2,200,000₫</span>
+                            <span class="original-price ComparePrice"><s>2,500,000₫</s></span>
+                            <div class="sale-percentage"><span class="PriceSaving"></span></div>
+                          </div>
+                          <div class="pro-short-desc">
+                            <!-- mô tả ngắn -->
+                              <span style="color: #ff0000;"><em><strong><a style="color: #ff0000;" href="">Hỗ Trợ Trả Góp 80% Giá Trị Sản Phẩm</a></strong></em>
+                              </span>
+                            <p><span class="check-icon"></span>Miễn phí vận chuyển trong bán kính 10km từ cửa hàng LAPTOP TCC gần nhất</p>
+                            <p><span class="check-icon"></span>Máy chạy mát, độ bền cao, loa tốt</p>
+                            <p><span class="check-icon"></span>Bảo hành 12 tháng 1 đổi 1 <a href=""><strong> CHI TIẾT CHÍNH SÁCH</strong></a></p>
+                            <p><span class="check-icon"></span>Cam kết máy xách tay nguyên bản 100% chưa qua sửa chữa tại các dự án thị trường Mỹ và châu âu…</p>
+                            <p><span class="check-icon"></span>Tặng <strong>bộ quà tặng 650.000đ</strong> cho toàn bộ đơn hàng trên 5 triệu bao gồm . Balo, túi chống sốc, chuột không dây, lót di chuột</p>
+                            <p><span class="check-icon"></span>Cài đặt – Vệ sinh laptop hoàn toàn miễn phí với tất cả laptop ( mua hoặc không mua tại tcc đều được hưởng chính sách trên )</p>
+                            <p><span class="check-icon"></span>Máy đạt chuẩn <a href="">15 quy trình test máy nghiêm ngặt</a></p>
+                          </div>
+                          <form action="" method="post" enctype="multipart/form-data" id="AddToCartForm" class="form-vertical">
+                          <div class="product-variants-wrapper">
+                          
+                          
+                          <div class="product-size-hotline">
+                          <div class="product-hotline">
+                          Hotline hỗ trợ bán hàng 24/7: <a href="tel:(+84) 934 323 882">(+84) 934 323 882</a>
+                          </div>
+                          <span>|</span>
+                          <div class="social-network-actions text-left">
+                          <div class="fb-like" data-href="https:suplo-lavatory.myharavan.com/products/ban-cau-mot-khoi-nhap-khau-tu-thai-lan" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                          </div>
+                          </div>
+                          </div>
+                          <div class="grid mg-left-5">
+                          <div class="grid__item large--one-quarter medium--one-quarter small--one-whole pd-left5">
+                          <div class="product-quantity clearfix">
+                          <div class="qty-addcart clearfix">
+                          <span>Số lượng </span>
+                          <div class="js-qty">
+                          <button type="button" class="js-qty__adjust js-qty__adjust--minus icon-fallback-text" data-id="" data-qty="0">
+                          <span class="icon icon-minus" aria-hidden="true"></span>
+                          <span class="fallback-text" aria-hidden="true">−</span>
+                          <span class="visually-hidden">Giảm số lượng sản phẩm đi 1</span>
+                          </button>
+                          <input type="number" class="js-qty__num" value="1" min="1" data-id="" aria-label="quantity" pattern="[0-9]*" name="quantity" id="Quantity">
+                          <button type="button" class="js-qty__adjust js-qty__adjust--plus icon-fallback-text" data-id="" data-qty="11">
+                          <span class="icon icon-plus" aria-hidden="true"></span>
+                          <span class="fallback-text" aria-hidden="true">+</span>
+                          <span class="visually-hidden">Tăng số lượng sản phẩm lên 1</span>
+                          </button>
+                          </div>
+                          <script>
+                            jQuery(document).ready(function($) {
+                               var count = 0;
+                               $('.js-qty__adjust--minus').click(function () {
+                                   if (count - 1 >= 0) {
+                                       count = $(this).parent().find('#Quantity').val();
+                                       count = count - 1;
+                                       $(this).parent().find('#Quantity').val(count);
+                                   } else {
+                                       $(this).parent().find('#Quantity').val(0);
+                                   }
+                               });
+                               $('.js-qty__adjust--plus').click(function () {
+                                   count = parseInt($(this).parent().find('#Quantity').val());
+                                   count = count + 1;
+                                   $(this).parent().find('#Quantity').val(count);
+                               });
+                            });
+                          </script>
+                          </div>      
+                          </div>
+                          </div>
+                          <div class="grid__item large--one-quarter medium--one-quarter small--one-half pd-left5">
+                          <div class="product-actions clearfix">
+                          <button type="submit" name="add" id="AddToCart" class="btnAddToCart">Thêm vào giỏ hàng</button>
+                          </div>   
+                          </div>
+                          <div class="grid__item large--one-quarter medium--one-quarter small--one-half pd-left5">
+                          <div class="product-actions clearfix">
+                          <button type="button" name="buy" id="buy-now" class="btnBuyNow">Mua ngay</button>
+                          </div>   
+                          </div>
+                          </div>      
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid">
+                    <div class="grid__item large--one-whole medium--one-whole small--one-whole">
+                    <div class="product-description-wrapper">
+                    <div class="tab clearfix">
+                    <button class="pro-tablinks" onclick="openProTabs(event, 'protab1')" id="defaultOpenProTabs">Mô tả sản phẩm</button>
+                    <button class="pro-tablinks" onclick="openProTabs(event, 'protab2')">Bảng giá nâng cấp</button>
+                    <button class="pro-tablinks" onclick="openProTabs(event, 'proCom')">Bình luận</button>
+                    </div>
+                    <div id="protab1" class="pro-tabcontent">
+                        <!-- nội dung tab 1 -->
+                        <table class="table">
+                          <tbody>
+                          <tr>
+                          <td>Nhà Sản Xuất:</td>
+                          <td>dell</td>
+                          </tr>
+                          <tr>
+                          <td>Model:</td>
+                          <td>Dell inspiron 5520</td>
+                          </tr>
+
+                          <tr>
+                          <td>Chipset</td>
+                          <td>Mobile Intel HM77 Express Chipset</td>
+                          </tr>
+                          <tr>
+                          <td>Bộ xử lý CPU</td>
+                          <td>Intel Core i5 – 3210M</td>
+                          </tr>
+                          <tr>
+                          <td>GPU / Card đồ họa</td>
+                          <td>
+                            <p>Card share: Intel HD graphics 4000</p>
+                            <p>Card rời: nivdia q1000</p>
+                          </td>
+                          </tr>
+                          <tr>
+                          <td>Memory / Ram</td>
+                          <td>4 GB PC3 bus 1333</td>
+                          </tr>
+                          <tr>
+                          <td>Ổ Cứng</td>
+                          <td>HDD 500GB</td>
+                          </tr>
+                          <tr>
+                          <td>Màn hình</td>
+                          <td>15.6″, TrueLife LED-Backlit Display,LED Backlit</td>
+                          </tr>
+                          <tr>
+                          <td>Độ phân giải</td>
+                          <td>HD (1366 x 768)</td>
+                          </tr>
+                          <tr>
+                          <td>Giao Tiếp Mạng Wireless (wifi)</td>
+                          <td>CHUẨN N 2230 BẮT SÓNG MẠNH Intel® 802.11a/b/g/n/ac (2×2) Wi-Fi®</td>
+                          </tr>
+                          <tr>
+                          <td>Giao Tiếp Mạng LAN</td>
+                          <td>Chuẩn 10/100/1000 Mbps Ethernet LAN</td>
+                          </tr>
+                          <tr>
+                          <td>PIN/Battery</td>
+                          <td>4 Cells</td>
+                          </tr>
+                          <tr>
+                          <td>OS - Hệ điều hành</td>
+                          <td>Windows® 7 ultimate 64 bit</td>
+                          </tr>
+                          <tr>
+                          <td>Ổ đĩa quang</td>
+                          <td>Có (đọc, ghi dữ liệu)</td>
+                          </tr>
+                          <tr>
+                          <td>Cân nặng</td>
+                          <td>2.69kg</td>
+                          </tr>
+                          <tr>
+                          <td>Vỏ</td>
+                          <td>Nhựa đen</td>
+                          </tr>
+                          <tr>
+                          <td>Cổng Giao Tiếp & Tính Năng Mở Rộng</td>
+                          <td>
+                            <p>4 x USB 3.0</p>
+                            <p>HDMI (KẾT NỐI TIVI, MÁY CHIẾU...VV...)</p>
+                            <p>LAN (RJ45)</p>
+                            <p>VGA - KẾT NỐI MÁY CHIẾU</p>
+                            <p>TÍCH HỢP MICROPHONE - HEADPHONE</p>
+                            <p>Camera</p>
+                            <p>Bluetooth</p>
+                          </td>
+                          </tr>
+                          <tr>
+                          <td>Bảo hành & Chính sách bán hàng</td>
+                          <td><strong>BẢO HÀNH: 06 THÁNG</strong> <br>
+                            + Trong 7 ngày đầu được đổi máy khác nếu không thích - không cần lý do<br>
+
+                            + Trong 7 ngày đầu, nếu máy có lỗi phần cứng, khách hàng được hoàn tiền 100%<br>
+
+                            + CÀI ĐẶT PHẦN MỀM <strong>Miễn Phí</strong> TRỌN ĐỜI MÁY<br>
+
+                            + CHẾ ĐỘ MỞ RỘNG BẢO HÀNH: liên hệ<br>
+
+                            + HỖ TRỢ TRẢ GÓP LÃI SUẤT 0% QUA THẺ TÍN DỤNG (Xem Chi Tiết)</td>
+                          </tr>
+                          <tr>
+                          <td>Khuyến Mãi</td>
+                          <td>BALO LAPTOP cao cấp, chuột, lót chuột, TÚI CHỐNG SỐC, THẺ BẢO DƯỠNG (VỆ SINH LAPTOP MIỄN PHÍ)</td>
+                          </tr>
+                          <tr>
+                          <td>Giao Hàng:</td>
+                          <td>
+                            + CHUYỂN HÀNG COD TOÀN QUỐC (Nhận Hàng - Mở Kiểm Tra - Mới Trả tiền)<br>
+                            + Miễn Phí Giao Hàng Tại Tp.Hà Nội Phạm Vi (15Km)
+                          </td>
+                          </tr>
+                          </tbody>
+                        </table>
+                        <!-- end thông số -->
+                        <div class="introduct-pro">
+                          <p>♦ Dell inspiron 5520 Core I5 cũ có thiết kế mạnh mẽ nam tính, các góc bo tròn giúp máy trở nên thon gọn dễ vận chuyển. Sở hữu màn hình 15,6 inch cho góc nhìn thoải mái khi làm việc cũng như giải trí.</p> 
+
+                          <p>♦ Trang bị bộ vi xử lý Core I5-3210M, chip ivy bridge thế hệ 3 kết hợp với Ram 4gb cho bạn thoải mái chiến game và làm đồ họa thông dụng nhất hiện nay như: Photoshop, Corel, Autocad.... Liên minh, FiFa, CF, Võ lâm. Dung lượng ổ cứng lên đến 500gb tha hồ chứa dữ liệu</p>
+
+                          Tình trạng:<br>
+
+                          • Hàng đã qua sử dụng lướt qua một Nước - Xách tay về Việt Nam, chất lượng đảm bảo<br>
+
+                          • Ngoại hình máy còn rất đẹp trên 96%, không trầy xước nhiều<br>
+
+                          • Máy Nguyên Zin 100%, Chưa qua sửa chữa hay thay thế linh kiện (Bao thợ xem máy)<br>
+
+                          • Chất lượng máy được kiểm duyệt, kiểm tra khắc khe bởi bộ phận kỹ thuật Laptop NaNo<br>
+
+                          • Linh kiện dễ dàng tìm kiếm thay thế khi hư hỏng, giá linh kiện không quá cao.<br>
+
+                          • Tất cà mọi chức năng máy đều hoạt động tốt, không một lỗi nhỏ<br>
+
+                          • Dell Latitude dòng máy doanh nhân thương hiệu Mỹ sài rất bền, tính đồng bộ cao<br>
+
+                          • Đã được cài sẵn Window, Đủ Driver và các Soft ứng dụng cần thiết. Mua về chỉ việc sử dụng
+                        </div>
+                        <div class="end-pro">
+                          <h3>Mọi vấn đề cần liên hệ, Quý đại lý xin liên hệ với chúng tôi</h3>
+                          <h2>CÔNG TY CỔ PHẦN CÔNG NGHỆ PDUCOMPUTER VIỆT NAM</h2>
+                          <p><strong>Địa chỉ:</strong> Số 7, Huyện Đan Phượng, Hà Nội</p>
+                          <p><strong>Điện thoại :</strong>  0397.152.197  - Hotline: 0397.152.197</p>
+                          <p><strong>Email:</strong> themepdu@gmail.com</p>
+                          <p><strong>Website:</strong> http://themepdu.com</p>
+                          <div><strong>Xin chân thành cảm ơn</strong></div>
+                          <div>===o0o===</div>
+                        </div>  
+                    </div>
+                    <div id="protab2" class="pro-tabcontent">
+                        <!-- bảng giá nâng cấp -->
+                          <div class="tab-editor-container ywtm_content_tab">
+                        <hr>
+                        <p><em><strong>Laptop TCC Xin Gửi Tới Quý Khách Hàng Bảng Giá Nâng Cấp:</strong></em><br>
+                          <strong>Giá Nâng Cấp Chip:</strong><br>
+                          Từ <strong>i5 - 2520M</strong> lên <strong>i7 - 2620M</strong> thêm ---&gt; <strong>790.000đ</strong><br>
+                          Từ <strong>i5 - 3320M</strong> lên <strong>i7 - 3520M</strong> thêm ---&gt; <strong>1.100.000đ</strong><br>
+                          Từ <strong>i5 - 2520M</strong> lên <strong>i7 - 2720QM</strong> thêm ---&gt; <strong>1.200.000đ</strong><br>
+                          Từ <strong>i5 - 3320M</strong> lên <strong>i7 - 3720QM</strong> thêm ---&gt; <strong>1.600.000đ</strong>
+                        </p>
+                        <hr>
+                        <p><em><strong>Giá Nâng Cấp Ram (PC3-PC3L)</strong></em><br>
+                          Từ <strong>4gb</strong> lên <strong>8gb</strong> thêm ---&gt; <strong>350.000đ</strong><br>
+                          Từ <strong>8gb</strong> lên <strong>16gb</strong> thêm ---&gt; <strong>750.000đ</strong><br>
+                          Từ <strong>16gb</strong> lên <strong>32gb</strong> thêm ---&gt; <strong>1.350.000đ</strong>
+                        </p>
+                        <hr>
+                        <p><em><strong>Giá Nâng Cấp Ổ Cứng (áp dụng với đổ dạng 2.5 inch):</strong></em><br>
+                          Giá Nâng Cấp Ổ Cứng:<br>
+                          Từ <strong>HDD 250/320gb</strong> lên <strong>HDD 500gb (mới)</strong> thêm ---&gt; <strong>650.000đ</strong><br>
+                          Từ <strong>HDD 250/320gb</strong> lên <strong>HDD 1000gb (mới)</strong> thêm ---&gt; <strong>1.050.000đ</strong><br>
+                          Từ <strong>HDD 500gb lên</strong> <strong>HDD 1000gb (mới)</strong> thêm ---&gt; <strong>950.000đ</strong>
+                        </p>
+                        <hr>
+                        <p>Từ <strong>HDD 250/320gb</strong> lên <strong>SSD 120gb (mới</strong>) thêm ---&gt; <strong>750.000đ</strong> nay chỉ còn <strong>540.000đ</strong><br>
+
+                          Từ <strong>HDD 250/320gb</strong> lên <strong>SSD 240gb (mới)</strong> thêm ---&gt; <strong>1.350.000đ</strong> nay chỉ còn <strong>800.000đ</strong><br>
+
+                          Từ <strong>HDD 500gb</strong> lên <strong>SSD 120gb (mới)</strong> thêm ---&gt; <strong>550.000đ</strong> nay chỉ còn <strong>490.000đ</strong><br>
+
+                          Từ <strong>HDD 500gb</strong> lên <strong>SSD 240gb (mới)</strong> thêm ---&gt; <strong>1.250.000đ</strong> nay chỉ còn <strong>750.000đ</strong><br>
+
+                          Từ <strong>HDD 1TB</strong> lên <strong>SSD 240gb (mới)</strong> thêm ---&gt; <strong>1.250.000đ</strong> nay chỉ còn <strong>550.000đ</strong><br>
+
+                          Từ <strong>SSD 120gb (cũ)</strong> lên <strong>SSD 240gb (mới)</strong> thêm ---&gt; <strong>900.000đ</strong> nay chỉ còn <strong>600.000đ</strong>
+                        </p>
+                        <hr>
+                        <p><strong>Có thêm những phần nâng cấp <em><a href="https://laptoptcc.com/danh-muc/linh-kien/o-cung/ssd/sata-2-5/">SSD 480-512</a></em> | <em><a href="https://laptoptcc.com/danh-muc/linh-kien/ram/ddr4/">Ram DDR4</a></em> , <a href="https://laptoptcc.com/danh-muc/linh-kien/o-cung/ssd/msata/"><em>SSD MSATA</em></a>. <a href="https://laptoptcc.com/danh-muc/linh-kien/o-cung/ssd/m-2-2280/"><em>M2 SATA</em></a> ...quý khách vui lòng <a href="https://laptoptcc.com/lien-he/"><em>liên hệ</em></a> để được báo giá chi tiết.</strong></p>
+                        <h3><span style="color: #ff0000;"><em><span style="text-decoration: underline;"><strong>Lưu ý:</strong> </span></em></span><em><strong>Giá nâng cấp áp dụng trong 15 ngày đầu kể từ khi quý khách mua máy.</strong></em></h3>
+                      </div>
+                    </div>
+                    <div id="proCom" class="pro-tabcontent">
+                        <div class="fb-comments" data-href="https:suplo-lavatory.myharavan.com/products/ban-cau-mot-khoi-nhap-khau-tu-thai-lan" data-width="100%" data-numposts="5"></div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- Sản phẩm liên quan -->
+                    <section id="related-products" class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.75s">
+                      <div class="home-section-head clearfix">
+                        <div class="section-title text-left">
+                          <h2>
+                            Sản phẩm liên quan
+                          </h2>
+                          <span class="section-title-border"></span>
+                        </div>
+                      </div>
+                      <div class="home-section-body">
+                        <div class="grid mg-left-15">
+                          <div id="owl-related-products-slider" class="owl-carousel owl-theme">
+                            
+                            <div class="item grid__item pd-left15">
+                              <div class="product-item">
+                                <div class="product-img">
+                                  <a href="bon-cau-viglacera">
+                                  <img id="1015650313" 
+                                    class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="uploads/product/9.2-min_97799547fcf74f82b0c6eb4a7bf21c63_7bc9e78539ef42dba058e8377facaff8_medium.jpg" 
+                                    alt="Bồn cầu Viglacera" />
+                                  </a>
+                                  <div class="product-actions text-center clearfix">
+                                    <div>
+                                      <button type="button" class="btnQuickView quick-view medium--hide small--hide" data-handle="/products/bon-cau-viglacera"><span><i class="fa fa-search-plus" aria-hidden="true"></i></span></button>
+                                      <button type="button"  class="btnBuyNow buy-now medium--hide small--hide" data-id="1029483078"><span>Mua ngay</span></button>
+                                      <button type="button"  class="btnAddToCart add-to-cart medium--hide small--hide" data-id="1029483078"><span><i class="fa fa-cart-plus" aria-hidden="true"></i></span></button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="product-item-info text-center">
+                                  <div class="product-title">
+                                    <a href="products/bon-cau-viglacera.html">Bồn cầu Viglacera</a>
+                                  </div>
+                                  <div class="product-price clearfix">
+                                    <span class="current-price">5,200,000₫</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item grid__item pd-left15">
+                              <div class="product-item">
+                                <div class="product-img">
+                                  <a href="bon-rua-mat-fuiiuy.html">
+                                  <img id="1015650322" 
+                                    class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="uploads/product/2.1-min_62cacdb0bc6746cfb70db7638407cbbf_medium.jpg" 
+                                    alt="Bồn rửa mặt FUIIUY" />
+                                  </a>
+                                  <div class="product-actions text-center clearfix">
+                                    <div>
+                                      <button type="button" class="btnQuickView quick-view medium--hide small--hide" data-handle="/products/bon-rua-mat-fuiiuy"><span><i class="fa fa-search-plus" aria-hidden="true"></i></span></button>
+                                      <button type="button"  class="btnBuyNow buy-now medium--hide small--hide" data-id="1029483096"><span>Mua ngay</span></button>
+                                      <button type="button"  class="btnAddToCart add-to-cart medium--hide small--hide" data-id="1029483096"><span><i class="fa fa-cart-plus" aria-hidden="true"></i></span></button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="product-item-info text-center">
+                                  <div class="product-title">
+                                    <a href="products/bon-rua-mat-fuiiuy">Bồn rửa mặt FUIIUY</a>
+                                  </div>
+                                  <div class="product-price clearfix">
+                                    <span class="current-price">3,500,000₫</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item grid__item pd-left15">
+                              <div class="product-item">
+                                <div class="product-img">
+                                  <a href="bon-rua-mat-fyunm.html">
+                                  <img id="1015650320" 
+                                    class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="uploads/product/2.3-min_ae98bcdfa78b4b5998272a6bb57522d1_cb2004fa557642a081f9c0ee63d803b6_medium.jpg" 
+                                    alt="Bồn rửa mặt FYUNM" />
+                                  </a>
+                                  <div class="product-actions text-center clearfix">
+                                    <div>
+                                      <button type="button" class="btnQuickView quick-view medium--hide small--hide" data-handle="/products/bon-rua-mat-fyunm"><span><i class="fa fa-search-plus" aria-hidden="true"></i></span></button>
+                                      <button type="button"  class="btnBuyNow buy-now medium--hide small--hide" data-id="1029483093"><span>Mua ngay</span></button>
+                                      <button type="button"  class="btnAddToCart add-to-cart medium--hide small--hide" data-id="1029483093"><span><i class="fa fa-cart-plus" aria-hidden="true"></i></span></button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="product-item-info text-center">
+                                  <div class="product-title">
+                                    <a href="products/bon-rua-mat-fyunm.html">Bồn rửa mặt FYUNM</a>
+                                  </div>
+                                  <div class="product-price clearfix">
+                                    <span class="current-price">2,500,000₫</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item grid__item pd-left15">
+                              <div class="product-item">
+                                <div class="product-img">
+                                  <a href="bon-rua-mat-tyuihn.html">
+                                  <img id="1015650325" 
+                                    class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="uploads/product/2.3-min_ae98bcdfa78b4b5998272a6bb57522d1_d9dd7df0dde74374bdff4dafcf3b0c18_medium.jpg" 
+                                    alt="Bồn rửa mặt TYUIHN" />
+                                  </a>
+                                  <div class="tag-saleoff text-center">
+                                    -28%
+                                  </div>
+                                  <div class="product-actions text-center clearfix">
+                                    <div>
+                                      <button type="button" class="btnQuickView quick-view medium--hide small--hide" data-handle="/products/bon-rua-mat-tyuihn"><span><i class="fa fa-search-plus" aria-hidden="true"></i></span></button>
+                                      <button type="button"  class="btnBuyNow buy-now medium--hide small--hide" data-id="1029483099"><span>Mua ngay</span></button>
+                                      <button type="button"  class="btnAddToCart add-to-cart medium--hide small--hide" data-id="1029483099"><span><i class="fa fa-cart-plus" aria-hidden="true"></i></span></button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="product-item-info text-center">
+                                  <div class="product-title">
+                                    <a href="products/bon-rua-mat-tyuihn.html">Bồn rửa mặt TYUIHN</a>
+                                  </div>
+                                  <div class="product-price clearfix">
+                                    <span class="current-price">2,800,000₫</span>
+                                    <span class="original-price"><s>3,900,000₫</s></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item grid__item pd-left15">
+                              <div class="product-item">
+                                <div class="product-img">
+                                  <a href="chau-dat-ban-viglacera-fh5-nano-nung.html">
+                                  <img id="1005399043" 
+                                    class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="uploads/product/3-221wh_medium.jpg" 
+                                    alt="CHẬU ĐẶT BÀN  VIGLACERA FH5 ( NANO NUNG)" />
+                                  </a>
+                                  <div class="tag-saleoff text-center">
+                                    -18%
+                                  </div>
+                                  <div class="product-actions text-center clearfix">
+                                    <div>
+                                      <button type="button" class="btnQuickView quick-view medium--hide small--hide" data-handle="/products/chau-dat-ban-viglacera-fh5-nano-nung"><span><i class="fa fa-search-plus" aria-hidden="true"></i></span></button>
+                                      <button type="button"  class="btnBuyNow buy-now medium--hide small--hide" data-id="1013105470"><span>Mua ngay</span></button>
+                                      <button type="button"  class="btnAddToCart add-to-cart medium--hide small--hide" data-id="1013105470"><span><i class="fa fa-cart-plus" aria-hidden="true"></i></span></button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="product-item-info text-center">
+                                  <div class="product-title">
+                                    <a href="products/chau-dat-ban-viglacera-fh5-nano-nung.html">CHẬU ĐẶT BÀN  VIGLACERA FH5 ( NANO NUNG)</a>
+                                  </div>
+                                  <div class="product-price clearfix">
+                                    <span class="current-price">2,800,000₫</span>
+                                    <span class="original-price"><s>3,400,000₫</s></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item grid__item pd-left15">
+                              <div class="product-item">
+                                <div class="product-img">
+                                  <a href="chau-dat-ban-duong-vanh-nano-nung">
+                                  <img id="1005399045" 
+                                    class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="uploads/product/1-min_74d561817a67452c8985e736a7819af4_medium.jpg" 
+                                    alt="CHẬU ĐẶT BÀN DƯƠNG VÀNH ( NANO NUNG)" />
+                                  </a>
+                                  <div class="tag-saleoff text-center">
+                                    -18%
+                                  </div>
+                                  <div class="product-actions text-center clearfix">
+                                    <div>
+                                      <button type="button" class="btnQuickView quick-view medium--hide small--hide" data-handle="/products/chau-dat-ban-duong-vanh-nano-nung"><span><i class="fa fa-search-plus" aria-hidden="true"></i></span></button>
+                                      <button type="button"  class="btnBuyNow buy-now medium--hide small--hide" data-id="1013105473"><span>Mua ngay</span></button>
+                                      <button type="button"  class="btnAddToCart add-to-cart medium--hide small--hide" data-id="1013105473"><span><i class="fa fa-cart-plus" aria-hidden="true"></i></span></button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="product-item-info text-center">
+                                  <div class="product-title">
+                                    <a href="products/chau-dat-ban-duong-vanh-nano-nung.html">CHẬU ĐẶT BÀN DƯƠNG VÀNH ( NANO NUNG)</a>
+                                  </div>
+                                  <div class="product-price clearfix">
+                                    <span class="current-price">2,800,000₫</span>
+                                    <span class="original-price"><s>3,400,000₫</s></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                </div>
+              </div>
+            </section>
+          </main>
+        </div>
+        <!-- begin footer -->
+        <footer id="footer">
+          <div class="footer-top-subscribe">
+            <div class="wrapper">
+              <div class="inner">
+                <div class="grid">
+                  <div class="grid__item large--six-twelfths  medium--one-half small--one-whole footer-social wow zoomIn">
+                    <a target="_blank" href="https:www.facebook.com/SuploTeam/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" href="https:twitter.com/" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https:plus.google.com/" class="social-icon"><i class="fab fa-google-plus-g"></i></a>
+                    <a target="_blank" href="https:www.youtube.com/" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a target="_blank" href="https:www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                  </div>
+                  <div class="grid__item large--six-twelfths  medium--one-half small--one-whole footer-newlester wow zoomIn">
+                    <form accept-charset='UTF-8' action='https:suplo-lavatory.myharavan.com/account/contact' class='contact-form' method='post'>
+                      <input name='form_type' type='hidden' value='customer'>
+                      <input name='utf8' type='hidden' value='✓'>
+                      <div class="input-group">
+                        <input type="email" value="" placeholder="Nhập email của bạn" name="contact[email]" id="Email" class="input-group-field" aria-label="email@example.com" >
+                        <input type="hidden" name="contact[tags]" value="newsletter">
+                        <span class="input-group-btn">
+                        <button type="submit" class="btn"><span>Đăng ký</span></button>
+                        </span>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-content">
+            <div class="wrapper">
+              <div class="inner">
+                <div class="grid">
+                  <div class="grid__item large--four-twelfths medium--eight-twelfths small--one-whole wow fadeInLeft">
+                    <div class="ft-contact">
+                      <h1>
+                        <a href="index.html">
+                        <img src="images/logo9d71.png?v=742" alt="Hệ thống cửa hàng thiết bị vệ sinh Lavatory" />
+                        </a>
+                      </h1>
+                      <div class="ft-contact-desc">
+                        Suplo cam kết nỗ lực hết mình nhằm cung cấp sản phẩm và dịch vụ đúng với những giá trị mà khách hàng mong đợi.
+                      </div>
+                      <div class="ft-contact-address">
+                        <span class="ft-contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <div class="ft-contact-detail">
+                          Địa chỉ: Số 1 Lương Yên, Q.Hai Bà Trưng, Hà Nội
+                        </div>
+                      </div>
+                      <div class="ft-contact-tel">
+                        <span class="ft-contact-icon"><i class="fas fa-phone"></i></span>
+                        <div class="ft-contact-detail">
+                          Số điện thoại: <a href="tel:(+84) 934 323 882">(+84) 934 323 882</a>
+                        </div>
+                      </div>
+                      <div class="ft-contact-email">
+                        <span class="ft-contact-icon"><i class="fas fa-envelope"></i></span>
+                        <div class="ft-contact-detail">
+                          Email:  <a href="mailto:support@suplo.vn">support@suplo.vn</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__item large--two-twelfths medium--four-twelfths small--one-half wow fadeInUp">
+                    <div class="ft-nav">
+                      <h3 class="ft-title">
+                        Thông tin
+                      </h3>
+                      <ul class="no-bullets">
+                        <li>
+                          <a href="index.html">Thông tin liên hệ</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Thông tin tài khoản</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Chính sách ưu đãi</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Thông tin tuyển dụng</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Thông tin các cửa hàng</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Thông tin về sản phẩm mới</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Tin tức thị trường</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="grid__item large--two-twelfths medium--four-twelfths small--one-half wow fadeInUp">
+                    <div class="ft-nav">
+                      <h3 class="ft-title">
+                        Chính sách
+                      </h3>
+                      <ul class="no-bullets">
+                        <li>
+                          <a href="index.html">Chính sách bán hàng</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Chính sách khuyến mãi</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Hướng dẫn đổi trả</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Chính sách thu hồi</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Khách hàng thân thiết</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Sản phẩm mới</a>
+                        </li>
+                        <li>
+                          <a href="index.html">Sản phẩm tặng kèm</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="grid__item large--four-twelfths medium--eight-twelfths small--one-whole wow fadeInRight">
+                    <div class="ft-fb">
+                      <div class="facebook">
+                        <iframe class="lazyloadpdu" src="images/lazyload9d71.jpg?v=742" data-pdu="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmyphamnicemetics%2F&tabs&width=340&height=250&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                      </div>
+                      <div class="payment">
+                        <!-- <a href="/"><img src="images/footer_payment_logo_19d71.png?v=742" alt="payment"/></a>
+                          <a href="/"><img src="images/footer_payment_logo_29d71.png?v=742" alt="payment"/></a> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyrights">
+            <div class="wrapper">
+              <div class="inner">
+                <div class="ft-copyrights-content wow fadeInLeft text-center" data-wow-duration="0.75s" data-wow-delay="0.2s">
+                  Copyrights © 2018 by <a target="_blank" href="http://suplo.vn/">Suplo</a>. <a target="_blank" href="https://www.haravan.com/">Powered by Haravan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="fixed-social-network" class="medium--hide small--hide">
+          <a href="https://www.facebook.com/SuploTeam/" class="fb-icon"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="https://www.instagram.com/" class="ins-icon"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://www.youtube.com/" class="yt-icon"><i class="fab fa-youtube"></i> Youtube</a>
+          <a href="https://twitter.com/" class="tw-icon"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="https://plus.google.com/" class="gg-icon"><i class="fab fa-google-plus-g"></i> Google+</a>
+          <a href="javascript:void(0)" id="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i> Top</a>
+        </div>
+        <section id="mobile-bottom-navigation" class="large--hide medium--hide">
+          <div class="grid mg-left-0">
+            <div class="grid__item medium--two-tenths small--two-tenths pd-left0">
+              <div class="mobile-nav-item">
+                <a href="collections/all.html">
+                <i class="fas fa-tag"></i><br />Hàng mới
+                </a>
+              </div>
+            </div>
+            <div class="grid__item medium--two-tenths small--two-tenths pd-left0">
+              <div class="mobile-nav-item">
+                <a href="collections/all.html">
+                <i class="fas fa-gift"></i><br />Khuyến mãi
+                </a>
+              </div>
+            </div>
+            <div class="grid__item medium--two-tenths small--two-tenths pd-left0">
+              <div class="mobile-nav-item">
+                <a href="account/login.html">
+                <i class="fas fa-user"></i><br />Tài khoản
+                </a>
+              </div>
+            </div>
+            <div class="grid__item medium--two-tenths small--two-tenths pd-left0">
+              <div class="mobile-nav-item">
+                <a href="pages/lien-he.html">
+                <i class="fas fa-phone"></i><br />Liên hệ 
+                </a>
+              </div>
+            </div>
+            <div class="grid__item medium--two-tenths small--two-tenths pd-left0">
+              <div class="mobile-nav-item">
+                <a href="cart.html">
+                <i class="fas fa-shopping-bag"></i><br />Giỏ hàng
+                <span class="number">
+                0
+                </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+         <script>
+          
+            function openProTabs(evt, cityName) {
+             var i, pro_tabcontent, pro_tablinks;
+              pro_tabcontent = document.getElementsByClassName("pro-tabcontent");
+             var tablength = pro_tabcontent.length;
+             for (i = 0; i < tablength; i++) {
+                pro_tabcontent[i].style.display = "none";
+             }
+              pro_tablinks = document.getElementsByClassName("pro-tablinks");
+             var tablength2 = pro_tablinks.length;
+             for (i = 0; i < tablength2 ; i++) {
+                pro_tablinks[i].className = pro_tablinks[i].className.replace("active", "");
+             }
+             document.getElementById(cityName).style.display = "block";
+             evt.currentTarget.className += " active";
+          }
+          
+          document.getElementById("defaultOpenProTabs").click(); 
+       
+        </script>
+        <!-- <script src='js/api.jquery.js' type='text/javascript'></script> -->
+        <!-- <script src='js/option_selection.js' type='text/javascript'></script> -->
+        <script src='js/fastclick.min9d71.js?v=742' type='text/javascript'></script>
+        <!-- ajax js, để học hỏi thêm -->
+        <script src='js/script9d71.js?v=742' type='text/javascript'></script>
+        <script src='js/timber9d71.js?v=742' type='text/javascript'></script>
+        <script src='js/maind.js' type='text/javascript'></script>
+        <!-- <script src='js/handlebars.min9d71.js?v=742' type='text/javascript'></script> -->
+        <!-- /snippets/ajax-cart-template.liquid -->
+        <!-- js cart đọc học hỏi thêm -->
+        <!-- <script src='js/ajax-cart9d71.js?v=742' type='text/javascript'></script> -->
+       
+        <!-- Owl carousel init -->
+        <!-- Custom script -->
+        <script>
+          new WOW().init();
+        </script>
+        <div class="modal" id="productQuickView">
+          <div class="modal-content">
+            <span id="close" class="close">&times;</span>
+            <form class="grid" id="form-quick-view" >
+              <div class="grid__item large--five-tenths">
+                <div class="image-zoom">
+                  <img id="p-product-image-feature" class="p-product-image-feature" src="images/footer_payment_logo_19d71.png?v=742" alt="payment"/>
+                  <div id="p-sliderproduct" class="flexslider">
+                    <ul class="slides">
+                      <img src="images/footer_payment_logo_19d71.png?v=742" alt="payment"/><img src="images/footer_payment_logo_19d71.png?v=742" alt="payment"/>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="grid__item large--five-tenths pull-right">
+                <h4 class="p-title   modal-title " id="">Tên sản phẩm</h4>
+                <p class="product-more-info">
+                  <span class="product-sku">
+                  Mã sản phẩm: <span id="ProductSku">01923123</span> 
+                  </span>
+                </p>
+                <div class="form-input product-price-wrapper">
+                  <div class="product-price">
+                    <span class="p-price "></span>
+                    <del></del>
+                  </div>
+                  <em id="PriceSaving"></em>
+                </div>
+                <div class="p-option-wrapper">
+                  <select name="id" class="" id="p-select-quickview"></select>
+                </div>
+                <div id="swatch-quick-view" class="select-swatch">
+                </div>
+                <div class="form-input hidden">
+                  <label>Số lượng</label>
+                  <input name="quantity" type="number" min="1" value="1" />
+                </div>
+                <div class="form-input" style="width: 100%">
+                  <button type="submit" class="btn btn-addcart" id="AddToCardQuickView">Thêm vào giỏ</button>
+                  <button disabled class="btn btn-soldout">Hết hàng</button>
+                  <div class="qv-readmore">
+                    <span> hoặc </span><a class="read-more p-url" href="#" role="button">Xem chi tiết</a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div id="loading">
+            <div></div>
+          </div>
+        </div>
+      </body>
+    </html>

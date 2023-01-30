@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title></title>
+
+    <link href='css/timber.scss9d71.css' rel='stylesheet' type='text/css'  media='all'  />
+        <link href='css/suplo-style.scss9d71.css' rel='stylesheet' type='text/css'  media='all'  />
+
+    
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/memberpdu.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="account_info">
+        <div class="container ctnSt">
+            <div class="row">
+                <div class="col-md-3 col-sm-5 col_let_1">
+                    <div class="left_accInfo">
+                        <div class="info_">
+                            <div class="avt_">
+                                <img src="images/avt_ihr.jpeg" alt="">
+                            </div>
+                            <div class="name">
+                                <p>User Name</p>
+                                <a href="account_info.html">Sửa thông tin</a>
+                            </div>
+                        </div>
+
+                        <div class="acc_management jointly_st">
+                            <span class="acc_t">Quản lý tài khoản</span>
+                            <ul>
+                                <li><a href="account_info.html">Thông tin tài khoản</a></li>
+                                <li><a href="address.html">Địa chỉ</a></li>
+                                <li><a href="change_password.html">Đổi mật khẩu</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="order_management jointly_st">
+                            <span class="acc_t">Quản lý đơn hàng</span>
+                            <ul>
+                                <!-- <li><a href="#">Chờ xác nhận</a></li> -->
+                                <li><a href="wait_for_pay.html">Chờ lấy hàng</a></li>
+                                <li><a href="delivery.html">Đang giao</a></li>
+                                <li><a href="delivered.html" class="active_info">Đã giao</a></li>
+                                <li><a href="order_canceled.html">Đã hủy</a></li>
+                                <li><a href="return_the_order.html">Hoàn trả</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="notification_management jointly_st">
+                            <span class="acc_t">Thông báo</span>
+                            <ul>
+                                <li><a href="notification.html">Tất cả thông báo</a></li>
+                                <li><a href="promotion.html">Khuyến mại</a></li>
+                                <li><a href="work.html">Hoạt động</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sale_code jointly_st">
+                            <span class="acc_t">Mã khuyến mại/voucher</span>
+                            <ul>
+                                <li><a href="notifi_voucher.html">Tất cả KM/Voucher</a></li>
+                                <li><a href="from_dv.html">Từ DV</a></li>
+                                <li><a href="from_shop.html">Từ Shop</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9 col-sm-7 col_let colSt">
+                    <div class="bg_address">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb" style="background: none;padding: 0;">
+                                <li class="breadcrumb-item"><a href="delivered.html">Đã giao</a></li>
+                                <!--    <li class="breadcrumb-item"><a href="#">Thiết bị điện tử</a></li> -->
+                                <li class="breadcrumb-item texts_ active" aria-current="page">Yêu cầu Trả hàng/Hoàn tiền</li>
+                            </ol>
+                        </nav>
+                        <h1 class="title_thht">Yêu cầu Trả hàng/Hoàn tiền <span>Chọn sản phẩm bạn muốn Trả hàng/Hoàn tiền</span></h1>
+                        <div class="info_order_1 v2">
+                            <div class="line_bottom">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="order_id">ID đơn hàng:<span>123456789XYZ</span></p>
+                                        <div class="order_product v2">
+                                            <div class="product_img">
+                                                <img src="images/sony.jpg" alt="">
+                                            </div>
+
+                                            <div class="info_product">
+                                                <p class="t_prod">Điện thoại Samsung Galaxy A20s (32GB/3GB) - Hãng phân phối chính thức</p>
+                                                <p>Số lượng: <span>x1</span></p>
+                                                <p>Giá sản phẩm: <span>10.999.000đ</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="reasons">
+                                            <select>
+                                                <option label="">Chọn lý do Trả hàng/Hoàn tiền</option>
+                                                <option label="">Sản phẩm bị lỗi</option>
+                                                <option label="">Sản phẩm khác với mô tả</option>
+                                                <option label="">Sai sản phẩm</option>
+                                                <option label="">Thiếu phụ kiện kèm theo</option>
+                                                <option label="">Thiếu hàng tặng kèm</option>
+                                                <option label="">Hàng bị hư hỏng, bể vỡ</option>
+                                                <option label="">Hàng đã qua sử dụng</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="box_info_">
+                                <div class="add_img">
+                                    <a href=""><img src="images/img_pl.png" alt=""></a>
+                                    <button class="file_add"><span class="icon_plus"></span>Thêm ảnh</button>
+                                </div>
+                                <textarea name="" rows="3" placeholder="Nhập lý do cụ thể ở đây. Hãy thêm hình ảnh và chỉ rõ lỗi của sản phẩm, mã vận đơn sai, lỗi đóng gói... "></textarea>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="email__">
+                                        <label for="">Email hoặc số điện thoại:</label><br>
+                                        <input type="text" placeholder="Nhập địa chỉ email hoặc số điện thoại của bạn...">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="reasons">
+                                        <select>
+                                            <option label="">Hoàn tiền tới</option>
+                                            <option label="">Ví DV</option>
+                                            <option label="">Demo</option>
+                                            <option label="">Demo</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="show_notification">
+                                <a href="#openModal" class="submit_btn__">Gửi yêu cầu Trả hàng/Hoàn tiền</a>
+                                <div id="openModal" class="modalDialog">
+                                    <div class="content_not">   
+                                        <a href="#close" title="Close" class="close"><span class="lnr lnr-cross"></span></a>
+                                        <h2>Bạn có chắc chắn muốn yêu cầu Trả hàng/Hoàn tiền?</h2>
+                                        <p>Trong trường hợp có bất kỳ khiếu nại nào, quyết định của Divi cũng là quyết định cuối cùng</p>
+                                        <div class="btns_not">
+                                            <a href="return_and_refund_detail.html" class="btn_confirm">Xác nhận</a>
+                                            <a href="" class="btn_view_policy">Xem chính sách Trả hàng/Hoàn tiền</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+    </html>

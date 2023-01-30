@@ -1,0 +1,134 @@
+==Cần phát triển==
+1: đặt câu hỏi -> admin trả lời -> tạo 1 category để show ở frontend
+
+==QUERY SQL Ở ADMIN==
+if (!empty($time)){//khoảng thời gian
+    $this->db->where($time);
+    } 
+    //1. $params =['time' => ['created_time >' => $created_time1, 'created_time <' => $created_time2]]; ~ WHERE created_time > $created_time1 AND created_time < $created_time2
+    //2. $created_time1 và $created_time2 khi nhận từ input tới, cần đc fomat cho giống với database $created_time1 = date('Y-m-d H:i:s', strtotime($created_time1));
+
+==upload file summernot==
+php:
+public function ajax_update_logo(){
+    $this->checkRequestPostAjax();
+    $id = $this->session->userdata('user_id');
+    dd($_FILES);
+    $path = USER_PATH.'memberid_'.$id.'/';
+    $path2 = "/public/uploads/memberpdu/memberid_".$id.'/';
+    $config['upload_path'] = $path;
+    $config['allowed_types'] = 'jpg|jpeg|png|JPG|JPEG|PNG';
+    $config['max_size'] = '2000';
+    $config['remove_spaces'] = false;
+    $this->load->library('upload', $config);
+    $this->upload->initialize($config);
+    /*xoa avata cu*/
+    if ($_FILES['avatar']['name'] != '') {
+        $type_file = pathinfo($_FILES['avatar']['name'], PATHINFO_EXTENSION);
+
+        $type_image = explode(".", $_FILES['avatar']['name']);
+        $a = $this->toSlug($type_image[0]);
+        $file_name = $a.'.'.$type_file;
+        $_FILES['avatar']['name'] =  $file_name;
+
+        if(file_exists($path.'/'.$file_name))
+        {
+            @unlink($path.'/'.$file_name);
+        }else{
+            if(!is_dir($path)){
+                mkdir($path, 0755, TRUE);
+            }
+        }
+
+        //upload
+        if (!$this->upload->do_upload('avatar')) {
+            $message['type'] = 'error';
+            $message['message'] = $this->upload->display_errors();
+            
+        } else {
+            
+            $upload = array('upload_data' => $this->upload->data());
+            $url_image = base_url().$path2.$upload['upload_data']['file_name'];
+            $message['file'] = $url_image;
+            
+
+            //begin resize
+            // $sizeImage = getimagesize($path.$upload['upload_data']['file_name']);//lấy kích thước ảnh
+            // if($sizeImage[0] > 720){
+            //     $config['image_library'] = 'gd2';
+            //     $config['source_image'] = $path.$upload['upload_data']['file_name'];//đường dẫn image đã upload
+            //     $config['create_thumb'] = false;
+            //     $config['maintain_ratio'] = TRUE;
+            //     $config['width'] = $sizeImage[0]/2;
+            //     $config['height'] = $sizeImage[1]/2;
+
+            //     $this->load->library('image_lib', $config);//gọi hàm
+            //     $this->image_lib->initialize($config);//lưu lại cái config mới này khi resize
+            //     $this->image_lib->resize();//thực hiện resize
+            //     $this->image_lib->clear();
+                
+            // }
+            
+        }
+    }
+
+    
+    $this->returnJson($message);
+
+}
+js :
+/*summernote*/
+       $('.summernote').summernote({
+        height: 100,
+        toolbar: [
+          ['style', ['style']],
+          ['font', ['bold', 'underline', 'clear']],
+          ['color', ['color']],
+          ['para', ['ul', 'ol', 'paragraph']],
+          ['table', ['table']],
+          ['insert', ['link', 'picture', 'video']],
+          ['view', ['fullscreen','codeview', 'help']]
+        ],
+        callbacks: {
+            onImageUpload: function(image) {
+                uploadImage(image[0]);
+
+            }
+        }
+      });
+
+       function uploadImage(image) {
+
+            if(image == ''){
+                return false;
+            }
+        
+            var formData = new FormData();
+               formData.append('avatar', image);/*dữ liệu json*/
+
+            $.ajax({
+                url : base_url+'edu/ajax_update_logo',
+                type: "POST",
+                data:formData,
+                contentType: false,
+                processData: false,
+                dataType: "JSON",
+                success: function(response) {
+                     
+                    if (typeof response.type !== 'undefined') {
+                        Toastr[response.type](response.message);
+                    }else{
+                        
+                        let image1 = $('<img>').attr('src',response.file);
+                        $('.summernote').summernote("insertNode", image1[0]);
+                    }
+                    
+                }
+            });
+
+       }
+
+
+============= Hướng dẫn logic========
+http://pducomputer.local/admin/order_edu
+- Người mua đăng ký khóa học thì is_status=1 -> chưa share drive -> cần share drive rồi cập nhật is_status=2
